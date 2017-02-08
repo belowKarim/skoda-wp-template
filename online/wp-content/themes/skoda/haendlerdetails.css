@@ -1,0 +1,372 @@
+img {-ms-interpolation-mode: bicubic;}
+
+* {outline: none;}
+
+#content a:hover,
+#content a:active,
+#content a:focus {
+	color: #000000;
+}
+
+/* Header elements*/
+/*******
+*******/
+.abstand_top {margin-top: 10px;}
+
+
+.haendlerdetails .section header {
+    max-height: none;
+}
+
+
+.haendlerdetails #content {
+	background: #A6ADB3 url("images/haendlerdetailseite_background.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 -150px;
+	background-size: cover;
+}
+
+.haendlerdetails #footer {
+	background-color: #A6ADB3;
+}
+
+#main {
+	margin-bottom: 0px !important;
+}
+
+.haendlerdetails .background_white {
+	background-color: white;
+}
+
+.haendlerdetails .mapHead h1 {
+    margin: 39px 0 20px;
+}
+
+.haendlerdetails .mapWrap .imgBox::before {
+    background: none;
+}
+
+
+.haendlerdetails .mapMain { /* Opacity Map*/
+	background-color: black;
+	opacity: 0.6;
+}
+
+.haendlerdetails .mapHead h1,
+.haendlerdetails .mapHead h2 {opacity: 0.6}
+
+.haendlerdetails .imgBox {
+ background: url("images/map_bg.jpg");	
+}
+
+.haendlerdetails_close {
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+
+.close_icon {
+	color: #ffffff;
+}
+	.haendlerdetails_close a:hover {
+		text-decoration: none !important;
+	}
+
+.haendlerdetails_close:hover {
+	cursor: pointer;
+}
+
+/* Typo */
+/*******
+*******/
+.haendlerdetails h1 {
+	font-size: 40px;
+	line-height: 60px;
+	text-transform: none !important;
+}
+
+.haendlerdetails h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.green {
+	color: #4ba82e;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+
+/* General */
+/*******
+******/
+.item_icon {
+    float: right;
+   	margin-left: 10px;
+   	margin-top: -20px;
+}
+
+
+.jump_to_top {
+	float: right;
+	position: relative;
+ 	right: 15px;
+}
+
+	.jump_to_top:before {
+	    content: "›";
+	    font-size: 22px;
+	    left: 0;
+	    line-height: 16px;
+	    position: absolute;
+	    top: 0;
+	    transform: rotate(-90deg);
+	}
+
+
+h2[class="anchor"] {
+	display: inline-block;    
+}
+
+.abstand_inhalt {
+	margin-bottom: 30px;
+}
+
+.margin30 {
+	margin-bottom: 30px;
+}
+
+/* Internal menu */
+/*******
+*******/
+.haendlerdetails .internal_menu  {
+	margin-bottom: 1.25em;
+}
+
+.haendlerdetails .internal_menu ul li {
+	display: inline;
+	font-size: 20px;
+	line-height: 24px;
+	margin-right: 20px;
+}
+
+.haendlerdetails .internal_menu ul li:first-child {
+	margin-left: 0px;
+}
+
+.haendlerdetails .internal_menu ul li a {
+	/*color: #000000;*/
+	font-weight: bold;
+}
+
+.haendlerdetails .internal_menu ul li::before {
+    content: "›";
+    color: black;
+    font-size: 22px;
+    left: 0;
+    line-height: 21px;
+    top: 0;
+    margin-right: 10px;
+
+}
+
+
+
+/* Autohaus_Allgemein */
+/*******
+*******/
+header[id="Autohaus_Anschrift"] {
+    padding-top: 45px;
+}
+
+section[id="Autohaus_Allgemein"] {
+}
+
+.haendler_bild {
+	width: 100%
+}
+
+.haendlerdetails .oneItem .item_wrap {
+    border: none;
+}
+
+.haendlerdetails .oneItem .item_wrap h4 {
+	padding-left: 0px;
+}
+
+.haendlerdetails .oneItem .item_wrap .contact_info {
+	padding-left: 0px;
+}
+
+.haendlerdetails .oneItem .item_wrap .contact_info  {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.haendlerdetails .haendler_logo {
+	max-width: 260px;
+	height: auto;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.haendlerdetails .times p {
+	margin-bottom: 10px !important;
+}
+
+/* Händlerleistungen */
+/*******
+*******/
+.padding_null_lr {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.min-height-170 {
+	min-height: 170px;
+	margin-bottom: 15px;
+}
+
+
+.padding-left-null {
+	padding-left: 0px;
+}
+
+
+	/* Händlermitarbeiter */
+	.haendler_mitarbeiter {
+		padding-bottom: 15px;
+	}
+
+	.haendler_mitarbeiter_bild_container {
+    	margin-bottom: 10px;	
+	}
+
+	/*
+	.haendler_mitarbeiter_bild_container {
+	  position: relative;
+	  padding-bottom: 100%;
+	  overflow: hidden;.
+	  width: 100%;
+	}
+	.haendler_mitarbeiter_bild_container img {
+	  position: absolute;
+	  top:0;
+	  left:0;
+	  width:100%;
+	  height:auto;
+	}
+*/
+
+
+	.haendler_mitarbeiter span {
+		font-family: "SkodaMd";
+		font-size: 16px;
+		line-height: auto;
+	 }
+
+	.haendler_mitarbeiter_bild {
+
+		width: 100%
+	}
+
+	.haendler_mitarbeiter_name {
+		font-weight: bold;
+	}
+
+	.haendler_mitarbeiter_telefon,
+	.haendler_mitarbeiter_email {
+		margin-top: 8px;
+	}
+
+	.haendler_mitarbeiter span {
+		display: block;
+	}
+
+
+
+	/* Händlerleistungen */
+
+	.haendler_leistung_details {
+		margin: 15px 0px;
+	}
+
+	.thumbnail_div {
+		/* margin-top: 20px; */
+		margin-bottom: 15px;
+	}
+
+	.haendler_leistung_icon {
+		background-color: #4ba82e;
+	}
+
+
+.caption {
+}
+
+.caption p {
+	font-size: 16px;
+	line-height: auto;
+
+}
+
+
+
+/*QUERIES/*
+/*******
+*******/
+@media screen and (min-width:1200px){
+	/*.min-height-385 { min-height: 388px }*/
+}
+
+
+@media screen and (max-width:1200px){
+	.caption p,
+	.haendler_mitarbeiter span {font-size: 14px}
+	.haendlerdetails .internal_menu ul li { font-size: 16px; }
+    .haendlerdetails .internal_menu ul li::before {line-height: 18px;}
+    h3[class="green"] {font-size: 16px }
+    .haendlerdetails .internal_menu ul li {display: block; margin-left:0;}
+	/*.min-height-385 { min-height: 325px;}*/
+	.min-height-170 {}
+
+}
+
+@media screen and (max-width:600px){
+	.caption p { font-size: 16px; margin-bottom: 12px; }
+	.haendler_mitarbeiter span { font-size: 16px;}
+    .haendlerdetails .internal_menu ul li { font-size: 14px; }
+    .haendlerdetails .internal_menu ul li::before {line-height: 16px;}
+    h3[class="green"] {font-size: 16px }
+    .haendlerdetails .internal_menu ul li {display: block; margin-left:0;}
+    .item_icon { width: 15%; height: auto; max-width: 70px; }
+    .haendlerdetails .haendler_logo { width: 50%; height: auto; max-width: 260px; }
+    .haendlerdetails_close {right: 0}
+	.close_icon {width: 50%; height: auto;}
+	.min-height-170 { min-height: 160px;}
+
+}
+
+@media screen and (max-width:990px){
+	.min-height-170 { min-height: 200px;}
+
+}
+
+@media screen and (max-width:479px)	{
+	.caption p { font-size: 12px; line-height: 15px; margin-bottom: 12px; }
+	.haendler_mitarbeiter span { font-size: 12px; line-height: 15px;}
+    .haendlerdetails .internal_menu ul li { font-size: 14px; line-height: 24px; }
+    .haendlerdetails .internal_menu ul li::before {line-height: 21px;}
+    h3[class="green"] {font-size: 15px }
+    .haendlerdetails .internal_menu ul li {display: block; margin-left:0;}
+	/*.min-height-385 { min-height: auto;}*/
+	.min-height-170 { min-height: 175px;}
+}
+
+@media screen and (max-width:360px)	{
+		.min-height-170 { min-height: 181px;}
+}
+

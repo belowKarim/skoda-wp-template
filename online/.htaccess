@@ -1,0 +1,16 @@
+#AuthName "Administration"
+#AuthUserFile /var/www/clients/client21/web341/web/.htpasswd
+#AuthType basic
+#Require valid-user
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /skoda/SKODA_Teams/SKODA_Team_Rhein_Main/online/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /skoda/SKODA_Teams/SKODA_Team_Rhein_Main/online/index.php [L]
+</IfModule>
+
+# END WordPress

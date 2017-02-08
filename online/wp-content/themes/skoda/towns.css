@@ -1,0 +1,150 @@
+
+/*--------------------------------general css--------------------------------*/
+
+.towns {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.towns li {
+    position: absolute;
+}
+.towns li i {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #4aa82d;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 0 0 rgba(74, 168, 45, 0.7), inset 0 1px 0 #4aa82d;
+    -moz-box-shadow: 0 0 0 0 rgba(74, 168, 45, 0.7), inset 0 1px 0 #4aa82d;
+    -o-box-shadow: 0 0 0 0 rgba(74, 168, 45, 0.7), inset 0 1px 0 #4aa82d;
+    box-shadow: 0 0 0 0 rgba(74, 168, 45, 0.7), inset 0 1px 0 #4aa82d;
+    -webkit-animation: pulse 2s infinite cubic-bezier(0.6, 0, 0, 1);
+    -moz-animation: pulse 2s infinite cubic-bezier(0.6, 0, 0, 1);
+    -o-animation: pulse 2s infinite cubic-bezier(0.6, 0, 0, 1);
+    animation: pulse 2s infinite cubic-bezier(0.6, 0, 0, 1);
+}
+@-webkit-keyframes pulse {to {-webkit-box-shadow: 0 0 0 10px rgba(74, 168, 45, 0), inset 0 1px 0 #4aa82d;}}
+@-moz-keyframes pulse {to {-moz-box-shadow: 0 0 0 10px rgba(74, 168, 45, 0), inset 0 1px 0 #4aa82d;}}
+@-o-keyframes pulse {to {-o-box-shadow: 0 0 0 10px rgba(74, 168, 45, 0), inset 0 1px 0 #4aa82d;}}
+@keyframes pulse {to {box-shadow: 0 0 0 10px rgba(74, 168, 45, 0), inset 0 1px 0 #4aa82d;}}
+.towns li:hover i {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+.towns li span {
+    display: block;
+    color: #4aa82d;
+    cursor: pointer;
+    font-family: "SkodaExBold";
+    font-size: 11px;
+    margin-left: 4px;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.towns li a:hover  {
+    text-decoration: none;
+}
+
+.oneItem .item_icon {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    background-size: auto 42px;
+}
+@media screen and (max-width:992px){.oneItem .item_icon {background-size: auto 34px;}}
+
+
+
+/*--------------------------------towns css--------------------------------*/
+
+.towns li[data-town="Friedberg"] {
+    left: 178px;
+    top: 57px;
+}
+.oneItem[data-town="Friedberg"] .item_icon { background-image: url("images/Fried.svg"); }
+.towns li[data-town="New Anspach"] {
+    left: 120px;
+    top: 79px;
+}
+        .towns li[data-town="Neu-Anspach"] { left: 120px;  top: 79px;}
+
+.oneItem[data-town="New Anspach"] .item_icon { background-image: url("images/NewAp.svg"); }
+        .oneItem[data-town="Neu-Anspach"] .item_icon { background-image: url("images/NewAp.svg"); }
+
+.towns li[data-town="Oberursel"] {
+    left: 117px;
+    top: 116px;
+}
+.oneItem[data-town="Oberursel"] .item_icon { background-image: url("images/Oberursel.svg"); }
+.towns li[data-town="Grundau-Lieblos"] {
+    left: 302px;
+    top: 101px;
+}
+.oneItem[data-town="Grundau-Lieblos"] .item_icon { background-image: url("images/Gruen.svg"); }
+        .oneItem[data-town="Gründau-Lieblos"] .item_icon { background-image: url("images/Gruen.svg"); }
+
+.towns li[data-town="Frankfurt"] {
+    left: 148px;
+    top: 157px;
+}
+.oneItem[data-town="Frankfurt"] .item_icon { background-image: url("images/Frank.svg"); }
+.towns li[data-town="Hanau"] {
+    left: 230px;
+    top: 158px;
+}
+.oneItem[data-town="Hanau"] .item_icon { background-image: url("images/Hanau.svg"); }
+.towns li[data-town="Offenbach"] {
+    left: 185px;
+    top: 174px;
+}
+.oneItem[data-town="Offenbach"] .item_icon { background-image: url("images/Offenbach.svg"); }
+.towns li[data-town="Hofheim"] {
+    left: 87px;
+    top: 170px;
+    z-index: 1;
+}
+        .towns li[data-town="Hofheim am Taunus"] {left: 87px;top: 170px;z-index: 1;}
+
+.oneItem[data-town="Hofheim"] .item_icon { background-image: url("images/Hofh.svg"); }
+        .oneItem[data-town="Hofheim am Taunus"] .item_icon { background-image: url("images/Hofh.svg"); }
+
+        
+.towns li[data-town="Wiesbaden"] {
+    left: 49px;
+    top: 179px;
+}
+.oneItem[data-town="Wiesbaden"] .item_icon { background-image: url("images/Wies.svg"); }
+.towns li[data-town="Mainz"] {
+    left: 38px;
+    top: 210px;
+}
+.oneItem[data-town="Mainz"] .item_icon { background-image: url("images/Mains.svg"); }
+.towns li[data-town="Rodermark"] {
+    left: 206px;
+    top: 218px;
+}
+.oneItem[data-town="Rodermark"] .item_icon { background-image: url("images/Rosde.svg"); }
+        
+        .oneItem[data-town="Rödermark"] .item_icon { background-image: url("images/Rosde.svg"); }
+
+
+.towns li[data-town="Weiterstadt"] {
+    left: 149px;
+    top: 256px;
+}
+.oneItem[data-town="Darmstadt"] .item_icon { background-image: url("images/Darm.svg"); }
+.towns li[data-town="Darmstadt"] {
+    left: 130px;
+    top: 233px;
+}
+
+.oneItem[data-town="Weiterstadt"] .item_icon { background-image: url("images/Weiterstadt.svg"); }

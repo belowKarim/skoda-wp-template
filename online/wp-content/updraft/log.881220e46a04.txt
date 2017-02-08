@@ -1,0 +1,152 @@
+0000.000 (0) Opened log file at time: Thu, 12 Jan 2017 08:32:29 +0000 on http://guude-fahrt.de
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.30.0 WP: 4.6.1 PHP: 5.6.29-0+deb8u1 (apache2handler, Linux vs02 3.16.0-4-amd64 #1 SMP Debian 3.16.36-1+deb8u1 (2016-09-03) x86_64) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.10 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.2M | 29.8M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 43613.4 MB
+0000.031 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.043 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.047 (0) Set semaphore last lock (fd) time to 2017-01-12 08:32:30
+0000.048 (0) Semaphore lock (fd) complete
+0000.052 (0) Backup run: resumption=0, nonce=881220e46a04, begun at=1484209949 (1s ago), job type=backup
+0000.053 (0) Scheduling a resumption (1) after 300 seconds (1484210250) in case this run gets aborted
+0000.071 (0) Checking if we have a zip executable available
+0000.075 (0) Creation of backups of directories: beginning
+0000.080 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.083 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0001.550 (0) Total entities for the zip file: 254 directories, 1606 files (0 skipped as non-modified), 18.5 MB
+0001.592 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.621 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.652 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.682 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.726 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.728 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.1 MB, 1606 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.808 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 600 files added (on-disk size: 2242.2 KB)
+0002.852 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 700 files added (on-disk size: 2242.2 KB)
+0002.902 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 800 files added (on-disk size: 2242.2 KB)
+0002.951 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 900 files added (on-disk size: 2242.2 KB)
+0002.999 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 1000 files added (on-disk size: 2242.2 KB)
+0003.001 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 1606 files batched, 501 (1002) added so far); re-opening (prior size: 2242.2 KB)
+0003.155 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 1100 files added (on-disk size: 2770.6 KB)
+0003.195 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 1200 files added (on-disk size: 2770.6 KB)
+0003.229 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 1300 files added (on-disk size: 2770.6 KB)
+0003.266 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 1400 files added (on-disk size: 2770.6 KB)
+0003.307 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 1500 files added (on-disk size: 2770.6 KB)
+0003.310 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.5 MB, 1606 files batched, 501 (1503) added so far); re-opening (prior size: 2770.6 KB)
+0004.260 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip.tmp: 1600 files added (on-disk size: 4849 KB)
+0004.431 (0) Created plugins zip (0) - 5229.9 KB in 4.3 s (1204 KB/s) (SHA1 checksum: d30543cbe37248d9db21beda07190c36ab58b7ed)
+0004.433 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0004.434 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0004.436 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.437 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0004.513 (0) Total entities for the zip file: 22 directories, 247 files (0 skipped as non-modified), 18.8 MB
+0004.539 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.565 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.558 (0) Created themes zip (0) - 17444.4 KB in 1.1 s (15604.8 KB/s) (SHA1 checksum: c732cb35ac57f2274dfa34d03a7ebe874178de39)
+0005.559 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0005.560 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0005.562 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.563 (0) Looking for candidates to back up in: /var/www/clients/client21/web341/web/wp-content/uploads
+0005.564 (0) finding files: 2017: adding to list (1)
+0005.565 (0) finding files: 2016: adding to list (2)
+0005.567 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.568 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0005.626 (0) Total entities for the zip file: 4 directories, 193 files (0 skipped as non-modified), 9.3 MB
+0005.651 (0) Zip: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.664 (0) Created uploads zip (0) - 9418.5 KB in 1.1 s (8617 KB/s) (SHA1 checksum: bd8fac384154ca01f09ccd3244db18d85f8ec456)
+0006.665 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0006.666 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0006.668 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.669 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.671 (0) Looking for candidates to back up in: /var/www/clients/client21/web341/web/wp-content
+0006.672 (0) finding files: uploads: skipping: this is the uploads directory
+0006.673 (0) finding files: plugins: skipping: this is the plugins directory
+0006.674 (0) finding files: updraft: skipping: this is the updraft directory
+0006.675 (0) finding files: themes: skipping: this is the themes directory
+0006.676 (0) finding files: index.php: adding to list (1)
+0006.677 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0006.682 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0006.709 (0) Created others zip (0) - 0.1 KB in 0 s (5.1 KB/s) (SHA1 checksum: ee073d77f3e08cbe2d1281e6cc806193d79c2bb8)
+0006.710 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0006.713 (0) PHP event: code E_WARNING: opendir(/var/www/clients/client21/web341/web/): failed to open dir: Permission denied (line 478, wp-content/plugins/updraftplus/class-updraftplus.php)
+0006.718 (0) Saving backup status to database (elements: 8)
+0006.721 (0) Beginning creation of database dump (WordPress DB)
+0006.753 (0) Table wp_options: Total expected rows (approximate): 188
+0006.791 (0) Table wp_options: Total rows added: 189 in 0.04 seconds
+0006.794 (0) Table wp_options: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_options.table.gz - 122.5 KB)
+0006.810 (0) Table wp_users: Total expected rows (approximate): 2
+0006.813 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0006.814 (0) Table wp_users: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_users.table.gz - 0.7 KB)
+0006.836 (0) Table wp_usermeta: Total expected rows (approximate): 58
+0006.843 (0) Table wp_usermeta: Total rows added: 59 in 0.00 seconds
+0006.846 (0) Table wp_usermeta: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_usermeta.table.gz - 1.8 KB)
+0006.855 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0006.858 (0) Table wp_commentmeta: Total rows added: 2 in 0.00 seconds
+0006.859 (0) Table wp_commentmeta: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0006.865 (0) Table wp_comments: Total expected rows (approximate): 0
+0006.867 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0006.869 (0) Table wp_comments: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_comments.table.gz - 0.7 KB)
+0006.876 (0) Table wp_links: Total expected rows (approximate): 0
+0006.879 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0006.882 (0) Table wp_links: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_links.table.gz - 0.4 KB)
+0006.888 (0) Table wp_postmeta: Total expected rows (approximate): 9343
+0007.243 (0) Table wp_postmeta: Total rows added: 10849 in 0.35 seconds
+0007.246 (0) Table wp_postmeta: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_postmeta.table.gz - 131.3 KB)
+0007.253 (0) Table wp_posts: Total expected rows (approximate): 323
+0007.302 (0) Table wp_posts: Total rows added: 322 in 0.05 seconds
+0007.304 (0) Table wp_posts: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_posts.table.gz - 18.5 KB)
+0007.322 (0) Table wp_term_relationships: Total expected rows (approximate): 97
+0007.325 (0) Table wp_term_relationships: Total rows added: 113 in 0.00 seconds
+0007.326 (0) Table wp_term_relationships: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_term_relationships.table.gz - 0.6 KB)
+0007.331 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0007.333 (0) Table wp_term_taxonomy: Total rows added: 4 in 0.00 seconds
+0007.334 (0) Table wp_term_taxonomy: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0007.364 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0007.367 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0007.368 (0) Table wp_termmeta: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_termmeta.table.gz - 0.4 KB)
+0007.373 (0) Table wp_terms: Total expected rows (approximate): 3
+0007.376 (0) Table wp_terms: Total rows added: 4 in 0.00 seconds
+0007.377 (0) Table wp_terms: finishing file (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_terms.table.gz - 0.4 KB)
+0007.382 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_options.table.gz (1/12): adding to final database dump
+0007.415 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_users.table.gz (2/12): adding to final database dump
+0007.416 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0007.418 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0007.420 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0007.421 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_links.table.gz (6/12): adding to final database dump
+0007.423 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0007.518 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0007.526 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0007.529 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0007.530 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0007.531 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0007.533 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db.gz: finished writing out complete database file (264 KB)
+0007.539 (0) Total database tables backed up: 12 (backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db.gz, size: 282660, checksum (SHA1): ff1463b6cdbeb24b7929f9acf43bb7daa486564d)
+0007.546 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0007.547 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0007.549 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0007.550 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-others.zip: others: This file has not yet been successfully uploaded: will queue
+0007.551 (0) backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db.gz: db: This file has not yet been successfully uploaded: will queue
+0007.552 (0) Saving backup history. Total backup size: 31.6 MB
+0007.557 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0007.562 (0) Cloud backup selection (1/1): none (last)
+0007.564 (0) No remote despatch: user chose no remote backup service
+0007.565 (0) Recording as successfully uploaded: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-plugins.zip (d2db35b56dc733c2c02bedbf9e43c10c)
+0007.580 (0) Recording as successfully uploaded: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-themes.zip (d2f32c42ffe366d3851f75a37a6ffdab)
+0007.592 (0) Recording as successfully uploaded: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-uploads.zip (509f05b30260a3e4482f107262a58eac)
+0007.598 (0) Recording as successfully uploaded: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-others.zip (530ef686c5f017ffac25dd7dfc037e68)
+0007.604 (0) Recording as successfully uploaded: backup_2017-01-12-0932_KODA_TEAM_RheinMain_881220e46a04-db.gz (9c4563464eec70f3c3cadc034b5db79c)
+0007.610 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.612 (0) Number of backup sets in history: 1; groups (db): 1
+0007.613 (0) Examining (for databases) backup set with group_id=0, nonce=881220e46a04, datestamp=1484209949 (Jan 12 2017 08:32:29)
+0007.614 (0) This backup set is the backup set just made, so will not be deleted.
+0007.615 (0) Number of backup sets in history: 1; groups (files): 1
+0007.617 (0) Examining (for files) backup set with nonce=881220e46a04, datestamp=1484209949 (Jan 12 2017 08:32:29)
+0007.619 (0) This backup set is the backup set just made, so will not be deleted.
+0007.620 (0) This backup set is the backup set just made, so will not be deleted.
+0007.620 (0) This backup set is the backup set just made, so will not be deleted.
+0007.620 (0) This backup set is the backup set just made, so will not be deleted.
+0007.620 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.621 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0007.624 (0) Resume backup (881220e46a04, 0): finish run
+0007.627 (0) Decremented the semaphore (fd) by 1
+0007.628 (0) Semaphore (fd) unlocked
+0007.629 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0007.633 (0) No email will/can be sent - the user has not configured an email address.
+0007.635 (0) The backup apparently succeeded and is now complete
