@@ -33,7 +33,15 @@ jQuery(document).ready(function($){
     // banner costructor
 
     $('#banner li:first').addClass('current')
-    if($('#banner li:first').hasClass('aloneSlide')){$('#banner .bigSlide').hide(   )}
+    if($('#banner li:first').hasClass('aloneSlide')){$('#banner .bigSlide').hide()}
+
+
+    if($('#banner li:first').hasClass('withoutflag')){$('#banner .bigFlag').hide()}
+
+
+
+
+
     $('#banner li').each(function(){
         if($(this).hasClass('aloneSlide')){
             var readyLink = $(this).find('.readyLink');
@@ -41,6 +49,7 @@ jQuery(document).ready(function($){
             $(this).find('.forLink_2').prepend(readyLink);
         }
         else {
+
             var linkClone = $(this).find('.upLink');
             var readyLink = $(this).find('.readyLink');
             $(this).prepend('' +
@@ -69,13 +78,24 @@ jQuery(document).ready(function($){
     var li_length = $('#banner ul li').length;
 
     function BannerSlides(){
+
         var current_li = $('#banner ul li.current').index();
         current_li++;
         if(current_li < li_length){
             var current = $('#banner ul li.current');
             current.next().addClass('next_A');
 
-            if(current.next().hasClass('aloneSlide')){
+
+            //First two slider white Flag off whihc is located Top Left
+              if(current.next().hasClass('withoutflag')){
+                $("#banner .bigFlag").hide();
+              } else {
+                 $("#banner .bigFlag").show();
+              }
+
+
+            // Normal Slider Code
+             if(current.next().hasClass('aloneSlide')){
                 $('#banner .bigSlide').fadeOut(1000);
                 $('#banner .next_A .forLink_2').animate({'opacity':'1'},1000,function(){
                     current.removeClass('current');
@@ -84,6 +104,7 @@ jQuery(document).ready(function($){
                     current.next().removeClass('next_A');
                 });
             }
+
             else {
                 $('#banner .bigSlide').fadeIn(500);
                 $('#banner .next_A .forLink').animate({'opacity':'1'},500,function(){
@@ -100,6 +121,10 @@ jQuery(document).ready(function($){
 
         }
         else {
+            // Slider white Flag off whihc is located Top Left and this loop again deactive taht flag when it reached new circle
+            $("#banner .bigFlag").hide();
+
+            // Normal slider Code
             var current = $('#banner ul li.current');
             var next = $('#banner ul li:first');
             next.addClass('next_A');
@@ -135,7 +160,8 @@ jQuery(document).ready(function($){
         setInterval(function(){
             BannerSlides()
         },5000)
-        if(current.next().hasClass('aloneSlide')){
+
+      if(current.next().hasClass('aloneSlide')){
             $('#banner .bigSlide').fadeOut(1000);
             $('#banner .next_A .forLink_2').animate({'opacity':'1'},1000,function(){
                 current.removeClass('current');
@@ -146,6 +172,7 @@ jQuery(document).ready(function($){
             });
         }
         else {
+
             $('#banner .bigSlide').fadeIn(500);
             $('#banner .next_A .forLink').animate({'opacity':'1'},500,function(){
                 current.next().addClass('next_B');

@@ -111,7 +111,7 @@
 							<header class="row">
 								<div class="col-md-9 col-sm-8 col-xs-12">
 									<h4 class="sk-second-headline">ENTDECKEN SIE SCHON BALD NEUES</h4>
-									<h4 class="sk-second-headline">TERRAIN.MIT DEM NEUEN SUV VON ŠKODA.</h4>
+									<h4 class="sk-second-headline">TERRAIN. MIT DEM NEUEN SUV VON ŠKODA.</h4>
 								</div>
 								<div class="col-md-3 col-sm-4 col-xs-12 pull-right">
 									<a href="#wahlen_Probefahrt" id="checkBoxhit" class="btn btn-success custom-button">
@@ -164,7 +164,7 @@
 						</section>
 
 
-						<section class="section last-section">
+						<section class="section">
 							<div class="row">
 								<div class="col-md-12">
 									<p class="impressum impressum-text">Je nach Reisetermin (Terminwahl vorbehaltlich Verfügbarkeit).</p>

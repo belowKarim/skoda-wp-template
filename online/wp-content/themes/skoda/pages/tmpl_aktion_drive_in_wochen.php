@@ -100,7 +100,7 @@
 						<section class="section">
 							<div class="row">
 								<div class="col-md-6 col-sm-12 col-xs-12">
-									<p class="skoda-information">Jetzt sind DRIVE-IN-WOCHEN beim ŠKODA TEAM Rhein-Main. Das bedeutet: die beliebten Modelle ŠKODA FABIA, YETI, RAPID und auch den Neuen ŠKODA OCTAVIA gibt es ab sofort mit vielen unwiderstehlichen Extras wie z. B. die Klimaanlage Climatronic , Sitzheizung oder Leichtmetallfelgen. Dazu 5 Jahre Garantie inklusive. Und das bei Preisvorteilen von bis zu 4.444 €<sup>2</sup> <br><br>Vereinbaren Sie direkt einen Probefahrttermin bei uns und erleben Sie unsere Sondermodelle DRIVE live. Wir freuen uns auf Sie.</p>
+									<p class="skoda-information">Jetzt sind DRIVE-IN-WOCHEN beim ŠKODA TEAM Rhein-Main. Das bedeutet: die beliebten Modelle ŠKODA FABIA, YETI, RAPID und auch den Neuen ŠKODA OCTAVIA gibt es ab sofort mit vielen unwiderstehlichen Extras wie &nbsp; z. B. die Klimaanlage Climatronic , Sitzheizung oder Leichtmetallfelgen. Dazu 5 Jahre Garantie inklusive. Und das bei Preisvorteilen von bis zu 4.444 €.<sup>2</sup> <br><br>Vereinbaren Sie direkt einen Probefahrttermin bei uns und erleben Sie unsere Sondermodelle DRIVE live. Wir freuen uns auf Sie.</p>
 									<p class="impressum-text"><sup class="sub-num">1</sup>3 Jahre kostenlose Garantieverlängerung im Anschluss an die 2-jährige Herstellergarantie mit der ŠKODA Garantie+, der Neuwagen-Anschlussgarantie der ŠKODA AUTO Deutschland GmbH,
 Max-Planck-Str. 3–5, 64331 Weiterstadt, mit einer maximalen Ge­samtfahrleistung von 50.000 km. Die Leistungen entsprechen dem Umfang der Herstellergarantie. Mehr Details hierzu erfahren Sie
 unter www.skoda-auto.de/garantieplus</p>
@@ -113,24 +113,14 @@ Deutschland GmbH für vergleichbar ausgestattete Serienmodelle der Ausstattungsl
 							</div>
 						</section>
 
-						<section class="section last-section">
-							<div class="row">
-								<div class="col-md-12">
-									<!-- <p class="impressum-text"><sup class="sub-num">1</sup>3 Jahre kostenlose Garantieverlängerung im Anschluss an die 2-jährige Herstellergarantie mit der ŠKODA Garantie+, der Neuwagen-Anschlussgarantie der ŠKODA AUTO Deutschland GmbH,
-Max-Planck-Str. 3–5, 64331 Weiterstadt, mit einer maximalen Ge­samtfahrleistung von 50.000 km. Die Leistungen entsprechen dem Umfang der Herstellergarantie. Mehr Details hierzu erfahren Sie
-unter www.skoda-auto.de/garantieplus</p>
-									<p class="impressum-text"><sup class="sub-num">2</sup>Preisvorteil am Beispiel des ŠKODA YETI DRIVE inklusive der optionalen Ausstattungspakete „Best of Function” und „Best of Infotainment” gegenüber der unverbindlichen Preisempfehlung der ŠKODA AUTO
-Deutschland GmbH für vergleichbar ausgestattete Serienmodelle der Ausstattungslinie Ambition.</p> -->
-								</div>
-							</div>
-						</section>
+					
 
 						<section class="section forForm" id="Formular_Probefahrt">
 							<div class="row">
 								<div class="col-md-12">
 									<hgroup>
-										<h4 class="headline-text-space">PROBEFAHRT</h4>
-										<h4 class="sub-headline-text-space">VEREINBAREN.</h4>
+										<h4 class="headline-text-space sub-headline-text-space">PROBEFAHRT VEREINBAREN</h4>
+			
 									</hgroup>
 									<p>Reservieren Sie jetzt einen Probefahrttermin bei einem ŠKODA Partner des ŠKODA TEAM Rhein-Main und testen Sie Ihr ŠKODA Sondermodell DRIVE.</p>
 								</div>
