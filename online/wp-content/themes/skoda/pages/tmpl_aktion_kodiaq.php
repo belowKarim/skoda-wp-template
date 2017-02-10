@@ -14,73 +14,53 @@
 ?>
 <!DOCTYPE HTML>
 <html lang="de">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width" name="viewport">
-		<meta name="description" content="Das ŠKODA Team Rhein-Main wünscht Ihnen eine „Guude Fahrt“: Lernen Sie uns kennen und entdecken Sie unsere aktuellen Neu- und Gebrauchtwagenangebote."/>
-		<title>ŠKODA Team Rhein-Main</title>
-		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="width=device-width" name="viewport">
+	<meta name="description" content="Das ŠKODA Team Rhein-Main wünscht Ihnen eine „Guude Fahrt“: Lernen Sie uns kennen und entdecken Sie unsere aktuellen Neu- und Gebrauchtwagenangebote."/>
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css">
-		<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">
-                <?php wp_head(); ?>
-		<link href="<?php echo get_template_directory_uri(); ?>/media.css" type="text/css" rel="stylesheet">
-		<link href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" rel="stylesheet">
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-
-
-
-
-	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css">
+	<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">
+							<?php wp_head(); ?>
+	<link href="<?php echo get_template_directory_uri(); ?>/media.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+</head>
         <body>
 		<div id="wrapper">
 			<header id="header">
 				<div class="container">
-            <nav id="nav" class="navbar row">
-                <div class="navbar-header col-md-3">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="logo" href="<?php echo home_url(); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/skoda_logo.png" alt="SKODA Team Rhein-Main" />
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse col-md-9" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                    <li><a href="<?php echo home_url(); ?>" class="active">Aktionen</a></li>
-                    <!-- <li><a href="#">Fahrzeuge</a></li> -->
-                        <li><a href="/team-rhein-main/">TEAM Rhein-Main</a></li>
-                        <!-- <li><a href="/guudies/" class="active">Guudies</a></li> -->
-                        <li class="dropdown">
-                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        Guudies
-                        <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu subnavigation">
-                            <li><a href="/ausflugtipps/">Ausflugtipps</a></li>
-                            <li><a href="/rezepte/">Rezepte</a></li>
-                        </ul>
-                        </li>
-                        </ul>
-                </div><!--
-            <div class="subMenu">
-                    <div class="container">
-                        <ul>
-                            <li><a href="#">Navigation 1.1</a></li>
-                            <li><a href="#">Navigation 1.2</a></li>
-                            <li><a href="#">Navigation 1.3</a></li>
-                            <li><a href="#">Navigation 1.4</a></li>
-                            <li><a href="#">Navigation 1.5</a></li>
-                        </ul>
-                    </div>
+		                            <nav id="nav" class="navbar row" role="navigation">
+		                              <div class="container-fluid">
+		                                <!-- Brand and toggle get grouped for better mobile display -->
+		                                <div class="navbar-header col-md-3">
+		                                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                                    <span class="sr-only">Toggle navigation</span>
+		                                    <span class="icon-bar"></span>
+		                                    <span class="icon-bar"></span>
+		                                    <span class="icon-bar"></span>
+		                                  </button>
+		                                 <a class="logo" href="<?php echo home_url(); ?>">
+		                                  <img src="<?php echo get_template_directory_uri(); ?>/images/skoda_logo.png" alt="SKODA Team Rhein-Main" /></a>
+		                                </div>
 
-                </div>-->
-            </nav>
+		                                    <?php
+		                                        wp_nav_menu( array(
+		                                            'menu'              => 'primary',
+		                                            'theme_location'    => 'primary',
+		                                            'depth'             => 2,
+		                                            'container'         => 'div',
+		                                            'container_class'   => 'collapse navbar-collapse col-md-9',
+		                                            'container_id'      => 'bs-example-navbar-collapse-1',
+		                                            'dropdown_class'    => 'subnavigation',
+		                                            'menu_class'        => 'nav navbar-nav',
+		                                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+		                                            'walker'            => new wp_bootstrap_navwalker())
+		                                        );
+		                                    ?>
+		                                </div>
+		                            </nav>
 				</div>
 			</header>
 			<div id="main">
@@ -93,8 +73,8 @@
 									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/main-header.jpg" alt="">
 									<div class="sk-hero">
 											<hgroup>
-													<h4 class="sk-headline">DER NEUE </h4>
-													<h4 class="sk-headline headline-text-margin">ŠKODA KODIAQ.</h4>
+													<h1 class="sk-headline">DER NEUE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ŠKODA KODIAQ. </h1>
+													<!-- <h1 class="sk-headline headline-text-margin">ŠKODA KODIAQ.</h1> -->
 											</hgroup>
 									</div>
 									<!-- <div class="sk-sub-hero">
@@ -110,8 +90,8 @@
 						<section style="margin-bottom: 35px;">
 							<header class="row">
 								<div class="col-md-9 col-sm-8 col-xs-12">
-									<h4 class="sk-second-headline">ENTDECKEN SIE SCHON BALD NEUES</h4>
-									<h4 class="sk-second-headline">TERRAIN. MIT DEM NEUEN SUV VON ŠKODA.</h4>
+									<h1 class="sk-second-headline">ENTDECKEN SIE SCHON BALD NEUES</h1>
+									<h1 class="sk-second-headline text-local-margin">TERRAIN. MIT DEM NEUEN SUV VON ŠKODA.</h1>
 								</div>
 								<div class="col-md-3 col-sm-4 col-xs-12 pull-right">
 									<a href="#wahlen_Probefahrt" id="checkBoxhit" class="btn btn-success custom-button">
@@ -126,7 +106,7 @@
 							<div class="row">
 								<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin">
 									<p class="skoda-information">In Kürze ist es soweit – am 04. März 2017 wird der Neue ŠKODA KODIAQ bei den ŠKODA Partnern des ŠKODA TEAM Rhein-Main seine Premiere feiern. Und Sie sind herzlich eingeladen, dabei zu sein und an diesem Tag eine ganz neue Art von SUV zu entdecken. Denn der Neue ŠKODA KODIAQ ist nicht nur stark und groß wie sein Namensgeber, der imposante Kodiak-Bär aus Alaska. Sondern überzeugt auch durch seine eindrucksvolle Kombination aus elegantem Design, modernsten Assistenzsystemen und innovativen Konnektivitätslösungen.</p>
-									<p class="skoda-information">Mit bis zu sieben Plätzen, dem größten Kofferraum seiner Klasse, Allrad-Antrieb mit Offroad-Modus und einer umfangreichen Sicherheitsausstattung ist er für jedes Abenteuer bereit. Steigen Sie doch mal zu einer Probefahrt ein und erleben Sie den Taunus ganz neu!</p>
+									<p class="skoda-information">Mit bis zu sieben Plätzen, dem größten Kofferraum seiner Klasse, Allrad Antrieb mit Offroad-Modus und einer umfangreichen Sicherheitsausstattung ist er für jedes Abenteuer bereit. Steigen Sie doch mal zu einer Probefahrt ein und erleben Sie den Taunus ganz neu!</p>
 								</div>
 								<div class="col-md-6">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/kodiaq-einklinke.jpg" class="img-responsive" alt=""  />
@@ -178,10 +158,10 @@
 							<div class="row">
 								<div class="col-md-12">
 									<hgroup>
-										<h4 class="headline-text-space">SCHON JETZT PROBEFAHRT MIT DEM NEUEN</h4>
-										<h4 class="sub-headline-text-space">ŠKODA KODIAQ RESERVIEREN.</h4>
+										<h1 class="sk-third-headline">SCHON JETZT PROBEFAHRT MIT DEM NEUEN<br>ŠKODA KODIAQ RESERVIEREN.</h1>
+										<!-- <h1 class="sub-headline-text-space">ŠKODA KODIAQ RESERVIEREN.</h1> -->
 									</hgroup>
-									<p>Gehören Sie zu den Ersten, die den Neuen ŠKODA KODIAQ testen. Sichern Sie sich schon jetzt Ihren Wunschtermin für eine Probefahrt und erleben Sie unseren SUV schon bald live.</p>
+									<p class="layout-space">Gehören Sie zu den Ersten, die den Neuen ŠKODA KODIAQ testen. Sichern Sie sich schon jetzt Ihren Wunschtermin für eine Probefahrt und erleben Sie unseren SUV schon bald live.</p>
 								</div>
 							</div>
 						</section>
@@ -261,8 +241,12 @@ $(document).ready(function(){
 
 });
 
+</script>
 
-
+<script>
+$(document).ready(function() {
+		$('.dropdown-menu').addClass('subnavigation');
+});
 </script>
 
 

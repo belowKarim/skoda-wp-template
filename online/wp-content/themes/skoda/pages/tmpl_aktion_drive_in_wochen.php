@@ -74,8 +74,8 @@
 									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/skoda_drive_in_wochen_visual.jpg" alt="">
 									<div class="sk-ak-hero">
 											<hgroup>
-													<h4 class="sk-headline">DIE SONDERMODELLE</h4>
-													<h4 class="sk-headline">DRIVE VON ŠKODA.</h4>
+													<h1 class="sk-headline">DIE SONDERMODELLE<br>DRIVE VON ŠKODA.</h1>
+													<!-- <h1 class="sk-headline">DRIVE VON ŠKODA.</h1> -->
 											</hgroup>
 									</div>
 								</div>
@@ -85,8 +85,8 @@
 						<section style="margin-bottom: 35px;">
 							<header class="row">
 								<div class="col-md-9 col-sm-8 col-xs-12">
-									<h4 class="sk-second-headline">DARF ES EIN BISSCHEN</h4>
-									<h4 class="sk-second-headline">MEHR SEIN?</h4>
+									<h1 class="sk-second-headline">DARF ES EIN BISSCHEN</h1>
+									<h1 class="sk-second-headline text-margin">MEHR SEIN?</h1>
 								</div>
 								<div class="col-md-3 col-sm-4 col-xs-12 pull-right">
 									<a href="#Formular_Probefahrt" class="btn btn-success custom-button" id="checkBoxhit">
@@ -104,7 +104,7 @@
 									<p class="impressum-text"><sup class="sub-num">1</sup>3 Jahre kostenlose Garantieverlängerung im Anschluss an die 2-jährige Herstellergarantie mit der ŠKODA Garantie+, der Neuwagen-Anschlussgarantie der ŠKODA AUTO Deutschland GmbH,
 Max-Planck-Str. 3–5, 64331 Weiterstadt, mit einer maximalen Ge­samtfahrleistung von 50.000 km. Die Leistungen entsprechen dem Umfang der Herstellergarantie. Mehr Details hierzu erfahren Sie
 unter www.skoda-auto.de/garantieplus</p>
-									<p class="impressum-text"><sup class="sub-num">2</sup>Preisvorteil am Beispiel des ŠKODA YETI DRIVE inklusive der optionalen Ausstattungspakete „Best of Function” und „Best of Infotainment” gegenüber der unverbindlichen Preisempfehlung der ŠKODA AUTO
+									<p class="impressum-text text-margin"><sup class="sub-num">2</sup>Preisvorteil am Beispiel des ŠKODA YETI DRIVE inklusive der optionalen Ausstattungspakete „Best of Function” und „Best of Infotainment” gegenüber der unverbindlichen Preisempfehlung der ŠKODA AUTO
 Deutschland GmbH für vergleichbar ausgestattete Serienmodelle der Ausstattungslinie Ambition.</p>
 								</div>
 								<div class="col-md-6">
@@ -113,16 +113,15 @@ Deutschland GmbH für vergleichbar ausgestattete Serienmodelle der Ausstattungsl
 							</div>
 						</section>
 
-					
+
 
 						<section class="section forForm" id="Formular_Probefahrt">
 							<div class="row">
 								<div class="col-md-12">
 									<hgroup>
-										<h4 class="headline-text-space sub-headline-text-space">PROBEFAHRT VEREINBAREN</h4>
-			
+										<h1 class="sk-third-headline">PROBEFAHRT VEREINBAREN</h1>
 									</hgroup>
-									<p>Reservieren Sie jetzt einen Probefahrttermin bei einem ŠKODA Partner des ŠKODA TEAM Rhein-Main und testen Sie Ihr ŠKODA Sondermodell DRIVE.</p>
+									<p class="layout-space">Reservieren Sie jetzt einen Probefahrttermin bei einem ŠKODA Partner des ŠKODA TEAM Rhein-Main und testen Sie Ihr ŠKODA Sondermodell DRIVE.</p>
 								</div>
 							</div>
 						</section>
