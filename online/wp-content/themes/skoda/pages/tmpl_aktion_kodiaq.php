@@ -27,46 +27,45 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/media.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 </head>
-        <body>
+<body>
 		<div id="wrapper">
 			<header id="header">
 				<div class="container">
-		                            <nav id="nav" class="navbar row" role="navigation">
-		                              <div class="container-fluid">
-		                                <!-- Brand and toggle get grouped for better mobile display -->
-		                                <div class="navbar-header col-md-3">
-		                                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		                                    <span class="sr-only">Toggle navigation</span>
-		                                    <span class="icon-bar"></span>
-		                                    <span class="icon-bar"></span>
-		                                    <span class="icon-bar"></span>
-		                                  </button>
-		                                 <a class="logo" href="<?php echo home_url(); ?>">
-		                                  <img src="<?php echo get_template_directory_uri(); ?>/images/skoda_logo.png" alt="SKODA Team Rhein-Main" /></a>
-		                                </div>
+					<nav id="nav" class="navbar row" role="navigation">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header col-md-3">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="logo" href="<?php echo home_url(); ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/skoda_logo.png" alt="SKODA Team Rhein-Main" /></a>
+								</div>
 
-		                                    <?php
-		                                        wp_nav_menu( array(
-		                                            'menu'              => 'primary',
-		                                            'theme_location'    => 'primary',
-		                                            'depth'             => 2,
-		                                            'container'         => 'div',
-		                                            'container_class'   => 'collapse navbar-collapse col-md-9',
-		                                            'container_id'      => 'bs-example-navbar-collapse-1',
-		                                            'dropdown_class'    => 'subnavigation',
-		                                            'menu_class'        => 'nav navbar-nav',
-		                                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-		                                            'walker'            => new wp_bootstrap_navwalker())
-		                                        );
-		                                    ?>
-		                                </div>
-		                            </nav>
-				</div>
-			</header>
+								<?php
+								wp_nav_menu( array(
+									'menu'              => 'primary',
+									'theme_location'    => 'primary',
+									'depth'             => 2,
+									'container'         => 'div',
+									'container_class'   => 'collapse navbar-collapse col-md-9',
+									'container_id'      => 'bs-example-navbar-collapse-1',
+									'dropdown_class'    => 'subnavigation',
+									'menu_class'        => 'nav navbar-nav',
+									'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+									'walker'            => new wp_bootstrap_navwalker())
+								);
+								?>
+							</div>
+						</nav>
+					</div>
+				</header>
 			<div id="main">
 				<div id="content">
 					<div class="container">
-
             <section class="section">
 							<div class="row">
 								<div class="col-md-12">
@@ -118,7 +117,7 @@
 							<div class="row">
 									<div class="col-md-12">
 											<div class="col-md-3 col-sm-12 col-xs-12 pull-right">
-												<a href="#" class="btn btn-success custom-button large-custom-button">
+												<a href="http://guude-fahrt.de/wp-content/themes/skoda/files/Aktion_Kodiaq_Gewinnspielkarte.pdf" target="_blank" class="btn btn-success custom-button large-custom-button">
 													<span class="feature-button">Gewinnspielkarte <br> als PDF herunterladen.</span>
 													<i class="cta_arrow"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m17.17 32.92l9.17-9.17-9.17-9.17 2.83-2.83 12 12-12 12z"/></svg></i>
 												</a>
@@ -142,7 +141,6 @@
 		            </div>
 							</div>
 						</section>
-
 
 						<section class="section">
 							<div class="row">
@@ -192,21 +190,21 @@
 						</div>
 						<div class="col-sm-6 footer-nav">
 							<ul class="col-lg-7 col-sm-5 col-xs-6">
-								<li><a href="/impressum/">Impressum</a></li>
-								<li><a href="/datenschutz/">Datenschutz</a></li>
+								<?php wp_nav_menu( array( 'skoda' => 'footer_menu' ) ); ?>
+								<!-- <li><a href="/impressum/">Impressum</a></li>
+								<li><a href="/datenschutz/">Datenschutz</a></li> -->
 								<!-- <li><a href="#">Kontakt</a></li> </a> -->
 							</ul>
 							<div class="pull-right copyright col-lg-5 col-sm-7 col-xs-6">
 								<p>&copy; ŠKODA TEAM Rhein-Main</p>
 							</div>
 						</div>
-
-
 					</div>
 				</div>
 			</footer>
 		</div>
-                <?php wp_footer(); ?>
+
+    <?php wp_footer(); ?>
 
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
@@ -230,25 +228,21 @@
 
 		</script>
 
-<script type="text/javascript">
+		<script>
 
-$(document).ready(function(){
-		$("#checkBoxhit").click(function(){
-				 $('#boxChecked span input[type=checkbox]').attr('checked', true);
-			//	$('#boxChecked .wpcf7-list-item input:checkbox').attr('checked', true);
+		$(document).ready(function(){
+
+				// Call to action Button checked in
+				$("#checkBoxhit").click(function(){
+						 $('#boxChecked span input[type=checkbox]').attr('checked', true);
+				});
+
+				//Bootstrap drop down menu
+				$('.dropdown-menu').addClass('subnavigation');
 
 		});
 
-});
-
-</script>
-
-<script>
-$(document).ready(function() {
-		$('.dropdown-menu').addClass('subnavigation');
-});
-</script>
-
+		</script>
 
 
 	</body>

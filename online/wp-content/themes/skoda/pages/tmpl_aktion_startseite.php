@@ -31,7 +31,7 @@
 
 <body>
     <div id="wrapper"> <!--Main Wrapper Start -->
-			<header id="header">
+			<header id="header"> <!--Main Header Start -->
 				<div class="container"> <!--container Start -->
 							<nav id="nav" class="navbar row" role="navigation">
 							  <div class="container-fluid">
@@ -46,7 +46,7 @@
                    	<a class="logo" href="<?php echo home_url(); ?>">
                    	<img src="<?php echo get_template_directory_uri(); ?>/images/skoda_logo.png" alt="SKODA Team Rhein-Main" /></a>
 							    </div>
-											<!-- wordpress dynamic Manu System -->
+											<!-- wordpress dynamic Manu -->
 							        <?php
 							            wp_nav_menu( array(
 							                'menu'              => 'primary',
@@ -64,7 +64,7 @@
 							    </div>
 							</nav>
 				</div> <!--container End -->
-			</header>
+			</header> <!--Main Header End -->
 
 			<div id="main">
 				<div id="content">
@@ -173,7 +173,7 @@
 									<p class="skoda-information" style="margin-bottom: 16px;">Wir wünschen Ihnen Guude Fahrt!</p>
 								</div>
 								<div class="col-md-5 col-sm-12 col-xs-12">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/map_umgebaut_seite.png" class="img-responsive" alt=""  /></a>	
+								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/map_umgebaut_seite.png" class="img-responsive" alt=""  /></a>
 								</div>
 							</div>
 					 </section>
@@ -198,10 +198,13 @@
 						</div>
 						<div class="col-sm-6 footer-nav">
 							<ul class="col-lg-7 col-sm-5 col-xs-6">
+
+								<!-- dynamic Footer mnenu-->
+								<?php wp_nav_menu( array( 'skoda' => 'footer_menu' ) ); ?>
+
 									<!-- <li><a href="/impressum/">Impressum</a></li>-->
 									<!-- <li><a href="/datenschutz/">Datenschutz</a></li> -->
 									<!-- <li><a href="#">Kontakt</a></li> </a> -->
-								<?php wp_nav_menu( array( 'skoda' => 'footer_menu' ) ); ?>
 							</ul>
 							<div class="pull-right copyright col-lg-5 col-sm-7 col-xs-6">
 								<p>&copy; ŠKODA TEAM Rhein-Main</p>
@@ -212,6 +215,7 @@
 			</footer> <!--Footer End -->
 
     </div> <!--Main Wrapper End -->
+
     <?php wp_footer(); ?>
 
 		<!--JS library -->
@@ -236,6 +240,7 @@
 
 		<script>
 		$(document).ready(function() {
+			  //Bootstrap drop down menu
 		    $('.dropdown-menu').addClass('subnavigation');
 		});
 		</script>

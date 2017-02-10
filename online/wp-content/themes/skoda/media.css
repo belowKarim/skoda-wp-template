@@ -392,9 +392,9 @@
 	margin-right:10px;
 	border-bottom:#666666;
 	padding:0 0 20px 0 ;
-	
-	}	
-	
+
+	}
+
 .adressbox a{
 	color:#000000;
 	}
@@ -409,9 +409,540 @@
 	margin-right:10px;
 	border-bottom:#666666;
 	padding-bottom:20px;
-	
-	}	
-	
+
+	}
+
 .adressbox_imp a{
 	color:#000000;
 	}
+
+
+
+
+
+
+  /* ==========================================================================
+    3 Aktion Seite: Media query
+    ========================================================================== */
+
+  @media only screen and (max-width : 1200px) {
+
+  .subnavigation {
+    left: -251px;
+  }
+
+  h1.sk-headline {
+    font-size: 35px;
+  }
+
+  h1.sk-second-headline {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  h4.sk-um-headline {
+    font-size: 35px;
+  }
+
+  h4.sk-um-second-headline {
+    font-size: 30px;
+  }
+
+  .feature-single-headline{
+    font-size: 25px;
+  }
+
+  .feature-big-headline{
+    font-size: 35px;
+  }
+
+  .large-custom-button {
+    font-size: 15px;
+  }
+
+  .feature-small-content {
+    margin-bottom: 50px;
+
+  }
+
+  .feature-highlight-content {
+    width: 48%;
+    margin-bottom: 79px;
+    font-size: 14px;
+  }
+
+  .img-berge{
+    width: 173px;
+    height: 31px;
+  }
+
+  .section p {
+    margin-bottom: 8px;
+  }
+
+  }
+
+  /********* Medium Devices, Desktops *********/
+  @media only screen and (max-width : 992px) {
+  .section {
+    margin-bottom: 30px;
+  }
+  h1.sk-headline {
+    font-size: 30px;
+  }
+
+  h4.sk-um-headline {
+    font-size: 30px;
+  }
+
+  h4.sk-um-second-headline {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .sk-sub-hero {
+    left: 50.3%;
+  }
+
+  h1.sk-second-headline {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .feature-background {
+    background-image: none;
+  }
+
+  .feature-on-mobile-background{
+    background: url('images/mobile-bg.jpg') no-repeat center center scroll;
+    position: relative;
+    height: 650px;
+  }
+
+  .feature-headline {
+    margin-bottom: 10px;
+  }
+  .feature-single-headline{
+    font-size: 20px;
+  }
+
+  h1.feature-big-headline{
+    font-size: 30px;
+  }
+
+  span.feature-big-headline{
+    font-size: 30px;
+  }
+
+  .large-custom-button {
+    margin-top: 7px;
+
+  }
+  .feature-small-headline {
+    margin-top: 10px;
+  }
+
+  .feature-small-content {
+    width: 100%;
+    margin-bottom: 66px;
+  }
+
+  .feature-highlight-content {
+    width: 100%;
+    margin-bottom: 100px;
+    font-size: 16px;
+  }
+  .img-berge{
+    width: 276px;
+    height: 50px;
+  }
+
+  .layout-space{
+    margin-top: 30px;
+  }
+  /*h4.sub-headline-text-space{
+    font-size: 35px;
+
+  }*/
+  .text-local-margin{
+    margin-bottom: 35px;
+  }
+
+  .section p.text-margin{
+    margin-bottom: 35px;
+  }
+
+  }
+
+  /******** Small Devices, Tablets *********/
+  @media only screen and (max-width : 767px) {
+
+  h1.sk-headline {
+    margin-bottom: 0;
+  }
+
+  h1.sk-second-headline {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  h1.text-margin{
+    margin-bottom: 35px;
+  }
+
+  h4.sk-um-headline {
+    font-size: 24px;
+  }
+  h4.sk-um-second-headline {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h1.feature-big-headline{
+    font-size: 32px;
+  }
+
+  span.feature-big-headline{
+    font-size: 32px;
+  }
+
+  .feature-headline {
+    line-height: 28px;
+    margin-bottom: 37px;
+  }
+
+  .feature-small-content {
+    width: 100%;
+    margin-bottom: 33px;
+  }
+
+  .feature-highlight-content {
+    width: 100%;
+    margin-bottom: 90px;
+    font-size: 14px;
+  }
+
+  h1.sk-third-headline{
+    font-size: 30px;
+  }
+
+  h4.sub-headline-text-space{
+    font-size: 30px;
+  }
+
+  .text-local-margin{
+    margin-bottom: 35px;
+  }
+
+
+  }
+
+
+  /********** Extra Small Devices, Phones ******/
+  @media only screen and (max-width : 600px) {
+
+  h1.sk-headline {
+    font-size: 20px;
+  }
+
+  h1.sk-second-headline {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  h4.sk-um-headline {
+    font-size: 20px;
+  }
+
+  h4.sk-um-second-headline {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .feature-headline {
+    margin-bottom: 16px;
+  }
+
+  .feature-small-content {
+    margin-bottom: 48px;
+  }
+
+  h1.feature-big-headline{
+    font-size: 26px;
+  }
+
+  span.feature-big-headline{
+    font-size: 26px;
+  }
+
+  h1.sk-third-headline{
+    font-size: 24px;
+  }
+
+  h4.sub-headline-text-space{
+    font-size: 24px;
+  }
+
+  }
+
+
+  /******** Extra Small Devices, Phones *******/
+  @media only screen and (max-width : 479px) {
+
+  h1.sk-headline {
+    font-size: 16px;
+  }
+
+  h1.sk-second-headline {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  h4.sk-um-headline {
+    font-size: 16px;
+  }
+
+  h4.sk-um-second-headline {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  h5.sk-um-sub-headline{
+    font-size: 16px;
+  }
+
+  .feature-headline {
+    line-height: 0px;
+  }
+
+  h1.sk-third-headline{
+    font-size: 20px;
+
+  }
+  h4.sub-headline-text-space{
+    font-size: 20px;
+
+  }
+
+  .feature-small-content {
+    margin-bottom: 24px;
+  }
+
+
+  }
+
+  /******** Custom, iPhone Retina ***********/
+  @media only screen and (max-width : 420px) {
+
+  .single-text-pull {
+    margin-left: 87px;
+  }
+  .sk-hero {
+    left: 46.7%;
+  }
+  .sk-ak-hero {
+    left: 4.7%;
+  }
+  .sk-sub-hero {
+    left: 48.3%;
+  }
+  h4.sk-um-headline {
+    font-size: 14px;
+  }
+
+  h4.sk-um-second-headline {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .sk-um-hero {
+    left: 5%;
+  }
+  .large-custom-button {
+    margin-top: 13px;
+  }
+
+  .feature-headline {
+    margin-bottom: 12px;
+  }
+
+  .feature-small-headline {
+    margin-top: 11px;
+    font-size: 14px;
+  }
+
+
+  .feature-small-content {
+    margin-bottom: 22px;
+    font-size: 14px;
+  }
+
+  .feature-highlight-content {
+    margin-bottom: 46px;
+  }
+
+  .feature-single-headline {
+    font-size: 19.12px;
+  }
+
+  h1.feature-big-headline {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  span.feature-big-headline {
+    font-size: 22px;
+  }
+
+  h1.sk-third-headline{
+    font-size: 16px;
+  }
+  h4.sub-headline-text-space{
+    font-size: 16px;
+  }
+
+  }
+
+  /************ Custom, iPhone Retina *********/
+    @media only screen and (max-width : 375px) {
+  .sk-ak-hero {
+    left: 5.7%;
+  }
+
+  .sk-sub-hero {
+    left: 43.3%;
+    top: 75%;
+  }
+
+  .sk-um-hero {
+    left: 6%;
+  }
+
+  .sk-um-sub-hero {
+    top: 78%;
+    left: 67.6%;
+  }
+
+  h4.sk-um-second-headline {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  h5.sk-um-sub-headline{
+    font-size: 14px;
+  }
+
+  h4.sk-um-headline {
+    font-size: 14px;
+  }
+  span.single-text-pull {
+    margin-left: 24px;
+  }
+
+  h1.feature-big-headline {
+    font-size: 26px;
+  }
+
+  span.feature-big-headline {
+    font-size: 24px;
+  }
+
+  h1.sk-second-headline {
+    font-size: 16px;
+  }
+
+  .feature-headline {
+    margin-bottom: 7px;
+  }
+
+  .feature-small-content {
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+
+  .feature-highlight-content {
+    margin-bottom: 62px;
+    font-size: 12px;
+  }
+
+  .feature-small-headline {
+    margin-top: 4px;
+  }
+
+  h1.sk-third-headline{
+    font-size: 13px;
+
+  }
+
+  h4.sub-headline-text-space{
+    font-size: 14px;
+
+  }
+
+  }
+
+
+  /************ Custom, iPhone Retina *********/
+    @media only screen and (max-width : 320px) {
+  .sk-hero {
+    left: 43.7%;
+  }
+
+  .sk-sub-hero {
+    left: 41.3%;
+    top: 75%;
+  }
+
+  h4.sk-um-headline {
+    font-size: 14px;
+  }
+
+  h1.sk-second-headline {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  h1.sk-headline {
+    font-size: 14px;
+  }
+
+  h5.sk-um-sub-headline{
+    font-size: 13px;
+  }
+
+  .large-custom-button {
+    margin-top: 3px;
+  }
+
+  .feature-small-headline {
+    line-height: 22px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    font-size: 12px;
+  }
+
+  .feature-single-headline {
+    font-size: 15.12px;
+  }
+
+  h1.feature-big-headline {
+    font-size: 16px;
+  }
+
+  span.feature-big-headline {
+    font-size: 16px;
+  }
+
+  .feature-small-content {
+    margin-bottom: 28px;
+    font-size: 12px;
+  }
+
+  .feature-highlight-content {
+    font-size: 11px;
+  }
+
+  .xtra-bold-text {
+    font-size: 12px;
+  }
+
+
+  }
