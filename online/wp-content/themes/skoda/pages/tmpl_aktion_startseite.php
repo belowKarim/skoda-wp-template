@@ -27,6 +27,8 @@
                 <?php wp_head(); ?>
 		<link href="<?php echo get_template_directory_uri(); ?>/media.css" type="text/css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	</head>
 
 <body>
@@ -141,7 +143,7 @@
 
 						<section class="section">
 								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin">
+									<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin animated bounceInDown">
 									<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Drive_02021777.jpg" class="img-responsive" alt="" /></a>
 										<div class="sk-um-second-hero">
 												<hgroup>
@@ -149,7 +151,7 @@
 												</hgroup>
 										</div>
 									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12">
+									<div class="col-md-6 col-sm-12 col-xs-12 animated bounceInUp">
 									<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Kodiaq_02021777.jpg" class="img-responsive" alt="Neue ŠKODA KODIAQ"/></a>
 										<div class="sk-um-second-sub-hero">
 												<hgroup>
@@ -172,7 +174,7 @@
 									<p class="skoda-information" style="margin-bottom: 16px;">Steigen Sie doch mal zu einer Probefahrt bei uns ein oder bringen Sie uns Ihren aktuellen ŠKODA zum Frühjahrs-Check. Sie werden sehen: bei uns fühlen Sie sich sofort wie dahaam.</p>
 									<p class="skoda-information" style="margin-bottom: 16px;">Wir wünschen Ihnen Guude Fahrt!</p>
 								</div>
-								<div class="col-md-5 col-sm-12 col-xs-12">
+								<div class="col-md-5 col-sm-12 col-xs-12 animated bounceInRight">
 								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/map_umgebaut_seite.png" class="img-responsive" alt=""  /></a>
 								</div>
 							</div>

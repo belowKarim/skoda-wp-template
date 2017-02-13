@@ -25,6 +25,8 @@
 	<?php wp_head(); ?>
 	<link href="<?php echo get_template_directory_uri(); ?>/media.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
         <body class="aktion">
 		<div id="wrapper"> <!--Main Wrapper Start -->
@@ -81,11 +83,11 @@
 
 						<section style="margin-bottom: 35px;">
 							<header class="row">
-								<div class="col-md-9 col-sm-8 col-xs-12">
+								<div class="col-md-9 col-sm-8 col-xs-12 animated">
 									<h1 class="sk-second-headline">DARF ES EIN BISSCHEN</h1>
 									<h1 class="sk-second-headline text-margin">MEHR SEIN?</h1>
 								</div>
-								<div class="col-md-3 col-sm-4 col-xs-12 pull-right">
+								<div class="col-md-3 col-sm-4 col-xs-12 pull-right animated bounceInRight">
 									<a href="#Formular_Probefahrt" class="btn btn-success custom-button" id="checkBoxhit">
 										<span>Jetzt Probe fahren!</span>
 										<i class="cta_arrow"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m17.17 32.92l9.17-9.17-9.17-9.17 2.83-2.83 12 12-12 12z"/></svg></i>
@@ -101,10 +103,10 @@
 									<p class="impressum-text"><sup class="sub-num">1</sup>3 Jahre kostenlose Garantieverlängerung im Anschluss an die 2-jährige Herstellergarantie mit der ŠKODA Garantie+, der Neuwagen-Anschlussgarantie der ŠKODA AUTO Deutschland GmbH,
 										Max-Planck-Str. 3–5, 64331 Weiterstadt, mit einer maximalen Ge­samtfahrleistung von 50.000 km. Die Leistungen entsprechen dem Umfang der Herstellergarantie. Mehr Details hierzu erfahren Sie
 										unter www.skoda-auto.de/garantieplus</p>
-										<p class="impressum-text text-margin"><sup class="sub-num">2</sup>Preisvorteil am Beispiel des ŠKODA YETI DRIVE inklusive der optionalen Ausstattungspakete „Best of Function” und „Best of Infotainment” gegenüber der unverbindlichen Preisempfehlung der ŠKODA AUTO
+									<p class="impressum-text text-margin"><sup class="sub-num">2</sup>Preisvorteil am Beispiel des ŠKODA YETI DRIVE inklusive der optionalen Ausstattungspakete „Best of Function” und „Best of Infotainment” gegenüber der unverbindlichen Preisempfehlung der ŠKODA AUTO
 											Deutschland GmbH für vergleichbar ausgestattete Serienmodelle der Ausstattungslinie Ambition.</p>
-										</div>
-										<div class="col-md-6">
+								</div>
+										<div class="col-md-6 animated bounceInLeft">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/skoda_drive_in_wochen.png" class="img-responsive" alt=""  />
 										</div>
 									</div>
@@ -175,6 +177,7 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap-datetimepicker.min.js"></script>
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/sorting.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/waypoints.min.js"></script>
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -200,9 +203,22 @@ $(document).ready(function(){
 	//Bootstrap drop down menu
 	$('.dropdown-menu').addClass('subnavigation');
 
+	// hide our element on page load
+	$('.text_Slider').css('opacity', 0);
+
+	$('.text_Slider').waypoint(function() {
+			$('.text_Slider').addClass('fadeIn');
+	}, { offset: '30%' });
+
+
 });
 
 </script>
+
+
+
+
+
 
 
 </body>
