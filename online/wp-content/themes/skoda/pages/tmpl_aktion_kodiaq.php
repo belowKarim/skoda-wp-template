@@ -26,6 +26,10 @@
 							<?php wp_head(); ?>
 	<link href="<?php echo get_template_directory_uri(); ?>/media.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+
+	<!-- Animation CSS -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.min.css">
+
 </head>
 <body>
 		<div id="wrapper">
@@ -92,7 +96,7 @@
 									<h1 class="sk-second-headline">ENTDECKEN SIE SCHON BALD NEUES</h1>
 									<h1 class="sk-second-headline text-local-margin">TERRAIN. MIT DEM NEUEN SUV VON ŠKODA.</h1>
 								</div>
-								<div class="col-md-3 col-sm-4 col-xs-12 pull-right">
+								<div class="col-md-3 col-sm-4 col-xs-12 pull-right animated bounceInRight">
 									<a href="#wahlen_Probefahrt" id="checkBoxhit" class="btn btn-success custom-button">
 										<span>Jetzt Probe fahren!</span>
 										<i class="cta_arrow"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m17.17 32.92l9.17-9.17-9.17-9.17 2.83-2.83 12 12-12 12z"/></svg></i>
@@ -104,8 +108,8 @@
 						<section class="section">
 							<div class="row">
 								<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin">
-									<p class="skoda-information">In Kürze ist es soweit – am 04. März 2017 wird der Neue ŠKODA KODIAQ bei den ŠKODA Partnern des ŠKODA TEAM Rhein-Main seine Premiere feiern. Und Sie sind herzlich eingeladen, dabei zu sein und an diesem Tag eine ganz neue Art von SUV zu entdecken. Denn der Neue ŠKODA KODIAQ ist nicht nur stark und groß wie sein Namensgeber, der imposante Kodiak-Bär aus Alaska. Sondern überzeugt auch durch seine eindrucksvolle Kombination aus elegantem Design, modernsten Assistenzsystemen und innovativen Konnektivitätslösungen.</p>
-									<p class="skoda-information">Mit bis zu sieben Plätzen, dem größten Kofferraum seiner Klasse, Allrad Antrieb mit Offroad-Modus und einer umfangreichen Sicherheitsausstattung ist er für jedes Abenteuer bereit. Steigen Sie doch mal zu einer Probefahrt ein und erleben Sie den Taunus ganz neu!</p>
+									<p class="skoda-information">In Kürze ist es soweit – am 04. März 2017 wird der Neue ŠKODA KODIAQ bei den ŠKODA Partnern des ŠKODA TEAM Rhein-Main seine Premiere feiern. Und Sie sind herzlich eingeladen, dabei zu sein und an diesem Tag eine ganz neue Art von SUV zu entdecken. Denn der Neue ŠKODA KODIAQ ist nicht nur stark und groß wie sein Namensgeber, der imposante Kodiak-Bär aus Alaska, sondern überzeugt auch durch seine eindrucksvolle Kombination aus elegantem Design, modernsten Assistenzsystemen und innovativen Konnektivitätslösungen.</p>
+									<p class="skoda-information">Mit bis zu sieben Plätzen, dem größten Kofferraum seiner Klasse, Allradantrieb mit Offroad-Modus und einer umfangreichen Sicherheits-ausstattung ist er für jedes Abenteuer bereit. Steigen Sie doch mal zu einer Probefahrt ein und erleben Sie den Taunus ganz neu!</p>
 								</div>
 								<div class="col-md-6">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/kodiaq-einklinke.jpg" class="img-responsive" alt=""  />
@@ -152,7 +156,7 @@
 							</div>
 						</section>
 
-						<section class="section forForm">
+						<section class="section forForm" id="wahlen_Probefahrt">
 							<div class="row">
 								<div class="col-md-12">
 									<hgroup>
@@ -240,9 +244,23 @@
 				//Bootstrap drop down menu
 				$('.dropdown-menu').addClass('subnavigation');
 
+				// Scroll Slider Top to Bottom
+				$('a[href*="#"]:not([href="#"])').click(function() {
+					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+						if (target.length) {
+							$('html, body').animate({
+								scrollTop: target.offset().top -10
+							}, 1000);
+							return false;
+						}
+					}
+				});
+
 		});
 
-		</script>
+	</script>
 
 
 	</body>

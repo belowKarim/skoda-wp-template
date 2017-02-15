@@ -99,7 +99,7 @@
 						<section class="section">
 							<div class="row">
 								<div class="col-md-6 col-sm-12 col-xs-12">
-									<p class="skoda-information">Jetzt sind DRIVE-IN-WOCHEN beim ŠKODA TEAM Rhein-Main. Das bedeutet: die beliebten Modelle ŠKODA FABIA, YETI, RAPID und auch den Neuen ŠKODA OCTAVIA gibt es ab sofort mit vielen unwiderstehlichen Extras wie &nbsp; z. B. die Klimaanlage Climatronic , Sitzheizung oder Leichtmetallfelgen. Dazu 5 Jahre Garantie inklusive. Und das bei Preisvorteilen von bis zu 4.444 €.<sup>2</sup> <br><br>Vereinbaren Sie direkt einen Probefahrttermin bei uns und erleben Sie unsere Sondermodelle DRIVE live. Wir freuen uns auf Sie.</p>
+									<p class="skoda-information">Jetzt sind DRIVE-IN-WOCHEN beim ŠKODA TEAM Rhein-Main. Das bedeutet: die beliebten Modelle ŠKODA FABIA, YETI, RAPID und auch den Neuen ŠKODA OCTAVIA gibt es ab sofort mit vielen unwiderstehlichen Extras wie &nbsp; z. B. Klimaanlage Climatronic , Sitzheizung oder Leichtmetallfelgen. Dazu 5 Jahre Garantie inklusive. Und das bei Preisvorteilen von bis zu 4.444 €.<sup>2</sup> <br><br>Vereinbaren Sie direkt einen Probefahrttermin bei uns und erleben Sie unsere Sondermodelle DRIVE live. Wir freuen uns auf Sie.</p>
 									<p class="impressum-text"><sup class="sub-num">1</sup>3 Jahre kostenlose Garantieverlängerung im Anschluss an die 2-jährige Herstellergarantie mit der ŠKODA Garantie+, der Neuwagen-Anschlussgarantie der ŠKODA AUTO Deutschland GmbH,
 										Max-Planck-Str. 3–5, 64331 Weiterstadt, mit einer maximalen Ge­samtfahrleistung von 50.000 km. Die Leistungen entsprechen dem Umfang der Herstellergarantie. Mehr Details hierzu erfahren Sie
 										unter www.skoda-auto.de/garantieplus</p>
@@ -196,19 +196,26 @@
 $(document).ready(function(){
 
 	// Call to action Button checked in
-	$("#checkBoxhit").click(function(){
-		$('#boxChecked span input[type=checkbox]').attr('checked', true);
-	});
+	// $("#checkBoxhit").click(function(){
+	// 	$('#boxChecked span input[type=checkbox]').attr('checked', true);
+	// });
 
 	//Bootstrap drop down menu
 	$('.dropdown-menu').addClass('subnavigation');
 
-	// hide our element on page load
-	$('.text_Slider').css('opacity', 0);
-
-	$('.text_Slider').waypoint(function() {
-			$('.text_Slider').addClass('fadeIn');
-	}, { offset: '30%' });
+	// Scroll Slider Top to Bottom
+	$('a[href*="#"]:not([href="#"])').click(function() {
+		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			if (target.length) {
+				$('html, body').animate({
+					scrollTop: target.offset().top -10
+				}, 1000);
+				return false;
+			}
+		}
+	});
 
 
 });

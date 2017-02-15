@@ -97,10 +97,10 @@
 										<ul class="towns">
 
 											<?php if( have_rows('acf_haendler_karte') ): ?>
-												<?php while( have_rows('acf_haendler_karte') ): the_row(); 
+												<?php while( have_rows('acf_haendler_karte') ): the_row();
 													// vars
 													$city = get_sub_field('acf_haendler_karte_stadt');
-													$pos_left = get_sub_field('acf_haendler_karte_stadt_pos_links'); 
+													$pos_left = get_sub_field('acf_haendler_karte_stadt_pos_links');
 													$pos_top = get_sub_field('acf_haendler_karte_stadt_pos_oben');
 
 														echo '<li onClick="ga(\'send\', \'event\', \'Map-Hotspot\', \'Click\', \''.$city.'\');" class="hotspot" data-id="'.$city.'" data-town="'.$city.'" style="left:'.$pos_left.'px; top:'.$pos_top.'px;"><i class="pnt"></i><span class="pnt">'.$city.'</span></li>';
@@ -151,12 +151,12 @@
 						<div class="tempContainer"></div>
 						<div class="tempMobContainer"></div>
 						<div class="itemContainer">
-		
+
 
 						<?php if( have_rows('acf_haendler_infobox') ): ?>
 
 
-							<?php while( have_rows('acf_haendler_infobox') ): the_row(); 
+							<?php while( have_rows('acf_haendler_infobox') ): the_row();
 
 								// vars
 								$name = get_sub_field('acf_haendler_infobox_name');
@@ -197,50 +197,50 @@
 													</div>
 													<div class="times">
 														<h6>Öffnungszeiten</h6>
-														
+
 																<!-- Verkauf -->
-																<!-- -->		
+																<!-- -->
 											<?php while( have_rows('acf_haendler_infobox_oeffnungszeiten') ): the_row(); ?>
-																
+
 																	<?php if( have_rows('acf_haendler_infobox_oeffnungszeiten_verkauf') ): ?>
 
 																	<strong>Verkauf:</strong>
 																	<dl>
 																	<?php while( have_rows('acf_haendler_infobox_oeffnungszeiten_verkauf') ): the_row(); ?>
-																		
-																	<?PHP $uhrzeit = get_sub_field('acf_haendler_infobox_oeffnungszeiten_verkauf_uhrzeit'); 
+
+																	<?PHP $uhrzeit = get_sub_field('acf_haendler_infobox_oeffnungszeiten_verkauf_uhrzeit');
 																		$wochentag = get_sub_field('acf_haendler_infobox_oeffnungszeiten_verkauf_wochentag'); ?>
 
-																								
+
 																				<dt><?PHP echo $wochentag ?></dt>
 																				<dd><?PHP echo $uhrzeit ?></dd>
-																								
+
 
 																	<?php endwhile; ?> <!-- Verkauf -->
 																	</dl>
 																<?php endif; ?><!-- Verkauf -->
-															
+
 
 															<!-- Werkstatt -->
-															<!-- -->	
+															<!-- -->
 															<?php if( have_rows('acf_haendler_infobox_oeffnungszeiten_werkstatt') ): ?>
 															<strong>Werkstatt:</strong>
 																	<dl>
 																	<?php while( have_rows('acf_haendler_infobox_oeffnungszeiten_werkstatt') ): the_row(); ?>
-																	<?PHP $uhrzeit = get_sub_field('acf_haendler_infobox_oeffnungszeiten_werkstatt_uhrzeit'); 
+																	<?PHP $uhrzeit = get_sub_field('acf_haendler_infobox_oeffnungszeiten_werkstatt_uhrzeit');
 																	$wochentag = get_sub_field('acf_haendler_infobox_oeffnungszeiten_werkstatt_wochentag'); ?>
 
-																	
+
 																			<dt><?PHP echo $wochentag ?></dt>
 																			<dd><?PHP echo $uhrzeit ?></dd>
-																		
+
 
 																	<?php endwhile; ?>
 																	</dl>
 																<?php endif; ?><!-- Werkstatt -->
 
 										<?php endwhile; ?> <!-- acf_haendler_infobox_oeffnungszeiten -->
-										
+
 
 													</div>
 												</div>
@@ -260,7 +260,7 @@
 
 						<?php endif; ?> <!-- acf_haendler_infobox -->
 
-													
+
 
 
 						</div>
@@ -297,6 +297,7 @@
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>-->
 
 
@@ -348,11 +349,26 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 </script>
 
 
-<script type="text/javascript"> 
+<script type="text/javascript">
 $(document).ready(function() {
     $('.dropdown-menu').addClass('subnavigation');
 });
 </script>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+
+
+		});
+</script>
+
+
+
+
+
+
+
+
 
 </body>
 </html>

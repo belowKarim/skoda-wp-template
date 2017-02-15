@@ -78,7 +78,7 @@ caption,th {
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
-    /*font-size: 100%;*/
+    font-size: 100%;
     margin:0;
     padding:0;
     font-family: 'SkodaBold';
@@ -212,6 +212,9 @@ input[aria-invalid=true] {
 #header .navbar-nav > li {
     margin-right: 28px;
 }
+
+/*#nav .navbar-nav > li > a.active {color: #4ba82e !important}*/
+
 #nav .navbar-nav > li > a {
     display: block;
     font-size: 20px;
@@ -219,7 +222,8 @@ input[aria-invalid=true] {
     color: #000;
     font-family: "SkodaMd";
 }
-#nav .navbar-nav > li > a.active {color: #4aa82d}
+
+
 
 .subMenu {
     position: absolute;
@@ -228,6 +232,41 @@ input[aria-invalid=true] {
     margin-top: 5px;
 
 }
+
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    color: #4ba82e;
+    text-decoration: none;
+    background-color: transparent;
+    outline: 0;
+}
+
+.current-menu-parent > a   {
+    color: #4ba82e !important;
+}
+
+.current-menu-item > a{
+    color: #4ba82e !important;
+}
+
+/*#nav .navbar-nav > li > a:active {
+    color: red;
+}*/
+
+/*#nav .navbar-nav > li > a:focus {
+    color: red;
+}*/
+
+/*.navbar-nav > .active > a:focus {
+
+}*/
+
+
+
+
+
+
+
 
 .subnavigation {
     position: absolute;
@@ -254,7 +293,7 @@ input[aria-invalid=true] {
     background: -webkit-linear-gradient(left,  rgba(255,255,255,0.85) 50%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to right,  rgba(255,255,255,0.85) 50%,rgba(255,255,255,0) 100%);
     top: 52px;
-    left: -300px;
+    left: -301px;
     width:1142px;
     box-shadow: none;
     border: none;
@@ -375,6 +414,10 @@ input[aria-invalid=true] {
 
 
 /*--------------------------------banner--------------------------------*/
+
+
+#banner .nolink
+{cursor: context-menu !important}
 
 #banner {
     margin-bottom: 40px;
@@ -511,8 +554,8 @@ input[aria-invalid=true] {
 #banner .forLink a.fl_5,
 #banner .forLink div.fl_5 {
     bottom: 0;
-    /*cursor: pointer;*/
-    cursor: default;
+    cursor: pointer;
+    /* cursor: default; */
     height: 570px;
     margin: auto;
     position: absolute;
@@ -695,7 +738,8 @@ input[aria-invalid=true] {
 
 .custom-form fieldset {
     margin-bottom: 27px;
-    margin-bottom: 4px;
+    /*margin-bottom: 4px;*/
+    margin-bottom: 0;
 }
 .custom-form fieldset.agree-check {
     margin-bottom: 50px;
@@ -706,7 +750,9 @@ input[aria-invalid=true] {
     margin-bottom: 33px;
 }
 .custom-form h3.small-margin {
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
+    margin-bottom: 33px;
+
 }
 .custom-form .input-fields > div {margin-bottom: 20px}
 .custom-form .input-fields .title {padding-right: 0;}
@@ -1573,7 +1619,7 @@ h1.sk-second-headline {
     font-size: 16px;
     line-height: 20px;
     font-family: "SkodaMd";
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 /************************* Gewinspeal section *******************************************/

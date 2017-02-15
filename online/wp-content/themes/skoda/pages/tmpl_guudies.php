@@ -101,7 +101,7 @@
 
     <p>Das <strong>Rhein-Main-Gebiet</strong> ist eine echt starke Region. Hier gibt es so viele <strong>schöne Flecken Erde</strong>, die einen Besuch wert sind. Deshalb treffen wir hier eine kleine Auswahl interessanter <strong>Ausflugstipps</strong> für Sie. Lassen Sie sich davon inspirieren und ziehen Sie einfach mal los. <strong>Mit Ihren Liebsten</strong>, der Familie oder mit Freunden. Sie wissen ja: Die schönen Momente im Leben zählen doppelt. Und sie vermehren sich, wenn man sie teilt.<br />
     <br />
-    Falls Sie bei einer Ihrer Touren in der Nähe eines ŠKODA Partners vom TEAM Rhein-Main vorbeikommen: Schauen Sie doch mal rein. <strong>Sie sind immer willkommen:</strong> gern auch für eine <a href="<?php echo home_url(); ?>">Probefahrt</a> im ŠKODA Modell Ihrer Wahl.</p>
+    Falls Sie bei einer Ihrer Touren in der Nähe eines ŠKODA Partners vom TEAM Rhein-Main vorbeikommen: Schauen Sie doch mal rein. <strong>Sie sind immer willkommen:</strong> gern auch für eine Probefahrt im ŠKODA Modell Ihrer Wahl.</p>
     </div>
     </div>
 </section>

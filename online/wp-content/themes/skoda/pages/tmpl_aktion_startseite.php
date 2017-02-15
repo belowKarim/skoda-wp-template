@@ -28,7 +28,9 @@
 		<link href="<?php echo get_template_directory_uri(); ?>/media.css" type="text/css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<!-- Animation CSS -->
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.min.css">
+
 	</head>
 
 <body>
@@ -76,20 +78,20 @@
 										<div class="bannerContainer">
 											<ul>
 											  <li class="withoutflag">
-													<a href="#" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img12.jpg')">
+													<a href="aktionen/drive-in-wochen/" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img12.jpg')">
 														<span style="top: 34px; left: 49px">DIE SONDERMODELLE<br>DRIVE VON ŠKODA.</span>
 														<p class="text-Exbold">Mit einer großen Portion Extras.</p>
 													</a>
-													<a href="#" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img13.jpg')">
+													<a href="aktionen/drive-in-wochen/" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img13.jpg')">
 														<span style="bottom: 15px; left: 188px">FÜR SCHNÄPPSCHE-<br>JÄSCHER</span>
 													</a>
 												</li>
 
 												<li class="withoutflag">
-													<a href="#" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img14.jpg')">
+													<a href="aktionen/aktion-kodiaq/" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img14.jpg')">
 														<span style="top: 40px; left:50px">Der NEUE ŠKODA KODIAQ.</span>
 													</a>
-													<a href="#" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img15.jpg')">
+													<a href="aktionen/aktion-kodiaq/" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img15.jpg')">
 														<span style="bottom: 26px; left: 156px;">FÜR DIE,<br>WO MIT’M BÄR STEPPE.</span>
 													</a>
 												</li>
@@ -101,28 +103,28 @@
 												</li>
 
 												<li>
-													<a class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img01.jpg')">
+													<a class="upLink nolink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img01.jpg')">
 														<span style="bottom: 36px; left: 157px">... die hembels</span>
 													</a>
-													<a class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img02.jpg')">
+													<a class="readyLink nolink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img02.jpg')">
 														<span style="top: 44px; left: 282px">... die bembels</span>
 													</a>
 												</li>
 
 												<li>
-													<a class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img04.jpg')">
+													<a class="upLink nolink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img04.jpg')">
 														<span style="bottom: 37px; left: 56px">... Die Fussballfans</span>
 													</a>
-													<a class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img05.jpg')">
+													<a class="readyLink nolink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img05.jpg')">
 														<span style="top: 485px; left: 297px; text-indent: -120px">... Die Verkehrsplaner</span>
 													</a>
 												</li>
 
 												<li>
-													<a class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img08.jpg')">
+													<a class="upLink nolink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img08.jpg')">
 														<span style="top: 53px; left: 229px">... Die Närrischen</span>
 													</a>
-													<a class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img09.jpg')">
+													<a class="readyLink nolink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img09.jpg')">
 														<span style="bottom: 33px; left: 128px">... Die Lässischen</span>
 													</a>
 												</li>
@@ -143,16 +145,16 @@
 
 						<section class="section">
 								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin animated bounceInDown">
-									<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Drive_02021777.jpg" class="img-responsive" alt="" /></a>
+									<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin">
+									<a href="aktionen/aktion-kodiaq/"><img src="<?php echo get_template_directory_uri(); ?>/images/Drive_02021777.jpg" class="img-responsive" alt="" /></a>
 										<div class="sk-um-second-hero">
 												<hgroup>
 														<h5 class="sk-um-sub-headline">Der neuer ŠKODA Kodiaq.</h5>
 												</hgroup>
 										</div>
 									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12 animated bounceInUp">
-									<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Kodiaq_02021777.jpg" class="img-responsive" alt="Neue ŠKODA KODIAQ"/></a>
+									<div class="col-md-6 col-sm-12 col-xs-12">
+									<a href="aktionen/drive-in-wochen/"><img src="<?php echo get_template_directory_uri(); ?>/images/Kodiaq_02021777.jpg" class="img-responsive" alt="Neue ŠKODA KODIAQ"/></a>
 										<div class="sk-um-second-sub-hero">
 												<hgroup>
 														<h5 class="sk-um-sub-headline">Die Sondermodelle</h5>
@@ -174,8 +176,8 @@
 									<p class="skoda-information" style="margin-bottom: 16px;">Steigen Sie doch mal zu einer Probefahrt bei uns ein oder bringen Sie uns Ihren aktuellen ŠKODA zum Frühjahrs-Check. Sie werden sehen: bei uns fühlen Sie sich sofort wie dahaam.</p>
 									<p class="skoda-information" style="margin-bottom: 16px;">Wir wünschen Ihnen Guude Fahrt!</p>
 								</div>
-								<div class="col-md-5 col-sm-12 col-xs-12 animated bounceInRight">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/map_umgebaut_seite.png" class="img-responsive" alt=""  /></a>
+								<div class="col-md-5 col-sm-12 col-xs-12 animated fadeIn">
+								<a href="http://guude-fahrt.de/team-rhein-main/"><img src="<?php echo get_template_directory_uri(); ?>/images/map_umgebaut_seite.png" class="img-responsive" alt=""  /></a>
 								</div>
 							</div>
 					 </section>
