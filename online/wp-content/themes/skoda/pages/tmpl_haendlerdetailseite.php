@@ -87,7 +87,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                
+
                         </div>
                     </div>
 					<div class="haendlerdetails_close"><a href="/team-rhein-main/" title="zurück zum TEAM Rhein-Main" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_close.png" class="close_icon" alt="zurück zum TEAM Rhein-Main"></a></div>
@@ -113,7 +113,7 @@
 		</h1>
 		</header>
 
-		
+
 		<div class="internal_menu">
 			<ul>
 				<li><a href="#Autohaus_Allgemein">Unser Autohaus</a></li>
@@ -129,7 +129,7 @@
 
 
 								<section class="item_wrap">
-	
+
 									<article class="contacts">
 
 										<div class="contact_info">
@@ -178,7 +178,7 @@
 </div>
 
 </div><!-- row -->
-  
+
 
     <div class="container">
     <div class="container-fluid background_white">
@@ -189,8 +189,8 @@
 		    <h2 class="anchor">Unser Autohaus:</h2><a href="#haendlerdetailseite" title="nach oben" class="jump_to_top hidden-lg"></a>
 		    <p><?php the_field('acf_haendler_unser_autohaus'); ?></p>
 		</section>
-		
-    	<section class="section" id="Autohaus_Leistungen">	
+
+    	<section class="section" id="Autohaus_Leistungen">
 		    <h2 class="anchor">Unsere Leistungen und Services:</h2><a href="#haendlerdetailseite" title="nach oben" class="jump_to_top hidden-lg"></a>
 			<?php if( get_field('acf_haendler_unsere_leistungen_und_services') ): ?>
 				<p><?php the_field('acf_haendler_unsere_leistungen_und_services'); ?></p>
@@ -209,13 +209,13 @@ $choices = $field['choices'];
 ?>
 	<h3 class="green">Vertrieb:</h3>
 
-	<div class="row"> 
+	<div class="row">
 	<?php $counter=0; ?>
-	<?php foreach ($choices as $value => $label): ?> 
+	<?php foreach ($choices as $value => $label): ?>
 		<?PHP $umlaute = array( ' ' => '_', '­' => '', '–' => '_', '/' => '_', 'Ä' => 'Ae', 'Ö' => 'Oe', 'Ü' => 'Ue', 'ä' => 'ae', 'ö' => 'oe', 'ü' => 'ue', 'ß' => 'ss', '&' => '-');
          $leistung_item_umlautefrei = strtr($value,$umlaute);?>
 
-		<?PHP 
+		<?PHP
          if (in_array($value, $values)) { ?>
         		<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 min-height-170 vertrieb_<?PHP echo $counter ?>">
 					<div class="thumbnail_div">
@@ -225,7 +225,7 @@ $choices = $field['choices'];
 					    <p><?php echo $label; ?></p>
 					</div><!-- caption -->
          		</div>
-		   	<?PHP $counter++; ?> 
+		   	<?PHP $counter++; ?>
 		 <?PHP // if ($counter%6 == 0) echo '</div><div class="row">'; ?>
    		<?PHP }  ?>
 	<?php endforeach; ?>
@@ -243,13 +243,13 @@ $choices = $field['choices'];
 	<h3 class="green">Service:</h3>
 
 	<?php $counter=0; ?>
-	<div class="row"> 
-	<?php foreach ($choices as $value => $label): ?> 
-		
+	<div class="row">
+	<?php foreach ($choices as $value => $label): ?>
+
 		<?PHP $umlaute = array( ' ' => '_', '­' => '', '–' => '_', '/' => '_', 'Ä' => 'Ae', 'Ö' => 'Oe', 'Ü' => 'Ue', 'ä' => 'ae', 'ö' => 'oe', 'ü' => 'ue', 'ß' => 'ss', '&' => '-');
          $leistung_item_umlautefrei = strtr($value,$umlaute);?>
 
-		<?PHP 
+		<?PHP
          if (in_array($value, $values)) { ?>
         		<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 min-height-170 service_<?PHP echo $counter ?>">
 					<div class="thumbnail_div">
@@ -259,7 +259,7 @@ $choices = $field['choices'];
 					    <p><?php echo $label; ?></p>
 					</div><!-- caption -->
          		</div>
-   			<?PHP $counter++; ?> 
+   			<?PHP $counter++; ?>
    			 <?PHP // if ($counter%6 == 0) echo '</div><div class="row ">'; ?>
    		<?PHP }  ?>
 	<?php endforeach; ?>
@@ -275,15 +275,15 @@ $choices = $field['choices'];
 
 <div class="col-md-6">
 
-    	<section class="section" id="Autohaus_Mitarbeiter">	
+    	<section class="section" id="Autohaus_Mitarbeiter">
 	    <h2 class="anchor" id="Mitarbeiter">Unsere Mitarbeiter:</h2><a href="#haendlerdetailseite" title="nach oben" class="jump_to_top hidden-lg"></a>
 
 
 
 			<?php if( have_rows('acf_haendler_mitarbeiter') ): ?>
 			<div class="row">
-			
-			<?php while( have_rows('acf_haendler_mitarbeiter') ): the_row(); 
+
+			<?php while( have_rows('acf_haendler_mitarbeiter') ): the_row();
 
 				// vars
 				$image = get_sub_field('acf_haendler_mitarbeiter_bild');
@@ -296,7 +296,7 @@ $choices = $field['choices'];
 				<div class="col-md-6 col-sm-6 haendler_mitarbeiter min-height-385">
 				<?PHP 	if (empty($image)) {
 							echo '<div class="haendler_mitarbeiter_bild_container"><img class="img-responsive haendler_mitarbeiter_bild" src="'.get_template_directory_uri().'/images/mitarbeiter_silhouette.png" /></div>';
-						} else { 
+						} else {
 							echo '<div class="haendler_mitarbeiter_bild_container"><img class="img-responsive haendler_mitarbeiter_bild" src="'.$image['url'].'" alt="'.$image['alt'].'" title="'.$image['title'].'" /></div>';
 					 	} ?>
 					<span class=""><?php echo $name; ?></span>
@@ -321,8 +321,8 @@ $choices = $field['choices'];
 
 
      </div>
-  
-                        
+
+
     <footer id="footer">
         <div class="container">
             <div class="footerContent">
@@ -357,7 +357,9 @@ $choices = $field['choices'];
 
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/sorting.js"></script>
-<script>
+<!-- Google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<!-- <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -367,7 +369,7 @@ $choices = $field['choices'];
     ga('set', 'anonymizeIp', true);
     ga('send', 'pageview');
 
-</script>
+</script> -->
 
 <script type="text/javascript">
 $('a[href*="#"]:not([href="#"])').click(function() {
@@ -385,7 +387,7 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 
 </script>
 
-<script> 
+<script>
 $(document).ready(function() {
     $('.dropdown-menu').addClass('subnavigation');
 });

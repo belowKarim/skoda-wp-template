@@ -108,11 +108,20 @@
 						<section class="section">
 							<div class="row">
 								<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin">
-									<p class="skoda-information">In Kürze ist es soweit – am 04. März 2017 wird der Neue ŠKODA KODIAQ bei den ŠKODA Partnern des ŠKODA TEAM Rhein-Main seine Premiere feiern. Und Sie sind herzlich eingeladen, dabei zu sein und an diesem Tag eine ganz neue Art von SUV zu entdecken. Denn der Neue ŠKODA KODIAQ ist nicht nur stark und groß wie sein Namensgeber, der imposante Kodiak-Bär aus Alaska, sondern überzeugt auch durch seine eindrucksvolle Kombination aus elegantem Design, modernsten Assistenzsystemen und innovativen Konnektivitätslösungen.</p>
-									<p class="skoda-information">Mit bis zu sieben Plätzen, dem größten Kofferraum seiner Klasse, Allradantrieb mit Offroad-Modus und einer umfangreichen Sicherheits-ausstattung ist er für jedes Abenteuer bereit. Steigen Sie doch mal zu einer Probefahrt ein und erleben Sie den Taunus ganz neu!</p>
+									<p class="skoda-information">In Kürze ist es soweit – am 04. März 2017 wird der Neue ŠKODA KODIAQ bei den ŠKODA Partnern des ŠKODA TEAM Rhein-Main seine Premiere feiern. Und Sie sind herzlich eingeladen, dabei zu sein und an diesem Tag eine ganz neue Art von SUV zu entdecken. Denn der Neue ŠKODA KODIAQ ist nicht nur stark und groß wie sein Namensgeber, der imposante Kodiak-Bär aus Alaska, sondern überzeugt auch durch seine eindrucksvolle Kombination aus elegantem Design, modernsten Assistenzsystemen und innovativen Konnektivitätslösungen. <br><br> Mit bis zu sieben Plätzen, dem größten Kofferraum seiner Klasse, Allradantrieb mit Offroad-Modus und einer umfangreichen Sicherheits-ausstattung ist er für jedes Abenteuer bereit. Steigen Sie doch mal zu einer Probefahrt ein und erleben Sie den Taunus ganz neu!</p>
+									<!-- <p class="skoda-information">Mit bis zu sieben Plätzen, dem größten Kofferraum seiner Klasse, Allradantrieb mit Offroad-Modus und einer umfangreichen Sicherheits-ausstattung ist er für jedes Abenteuer bereit. Steigen Sie doch mal zu einer Probefahrt ein und erleben Sie den Taunus ganz neu!</p> -->
 								</div>
 								<div class="col-md-6">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/kodiaq-einklinke.jpg" class="img-responsive" alt=""  />
+								</div>
+							</div>
+						</section>
+
+						<section class="listtField">
+							<div class="row">
+								<div class="col-md-12">
+									<h5>Kraftstoffverbrauch für alle verfügbaren Motoren des ŠKODA KODIAQ in l/100 km, innerorts: 9,1–5,8; außerorts: 6,4–4,6; kombiniert: 7,4–5,0. CO<sub>2</sub>-Emission kombiniert: 170–131&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse C–A
+									<h5>Kraftstoffverbrauch für alle verfügbaren Motoren in l/100 km, innerorts: 9,1–4,1; außerorts: 6,4–3,3; kombiniert: 7,4–3,6. CO<sub>2</sub>-Emission kombiniert: 170–95&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse D–A<sup>+</sup>
 								</div>
 							</div>
 						</section>
@@ -178,8 +187,6 @@
 							<div class="row">
 								<div class="col-md-12">
 										<p>* Verfügbar ab 04.03.2017</p>
-									<h5>Kraftstoffverbrauch für alle verfügbaren Motoren des ŠKODA KODIAQ in l/100 km, innerorts: 9,1–5,8; außerorts: 6,4–4,6; kombiniert: 7,4–5,0. CO<sub>2</sub>-Emission kombiniert: 170–131&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse C–A
-									<h5>Kraftstoffverbrauch für alle verfügbaren Motoren in l/100 km, innerorts: 9,1–4,1; außerorts: 6,4–3,3; kombiniert: 7,4–3,6. CO<sub>2</sub>-Emission kombiniert: 170–95&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse D–A<sup>+</sup>
 								</div>
 							</div>
 						</section>
@@ -220,7 +227,10 @@
 
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/banner.js"></script>
 		<script>jQuery('#datetimepicker input').datetimepicker({format: 'DD/MM/YYYY'});</script>
-		<script>
+		<!-- Google analytics -->
+		<?php include_once("analyticstracking.php") ?>
+
+		<!-- <script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -230,7 +240,7 @@
 			ga('set', 'anonymizeIp', true);
 			ga('send', 'pageview');
 
-		</script>
+		</script> -->
 
 		<script>
 

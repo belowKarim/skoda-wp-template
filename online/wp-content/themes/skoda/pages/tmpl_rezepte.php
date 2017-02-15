@@ -83,7 +83,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                
+
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
     <header>
     <h1>Die beste Weihnachtsplätzjer aus unserer Region.</h1>
     </header>
-    
+
     <p>
     Für Naschkatze und Weihnachtsengelcher. Wir zeigen Ihnen hier, welche „Plätzjer“ uns am besten schmecken.<br /> Und wir verraten auch, wie man sie macht. <br />
     <br />
@@ -123,7 +123,7 @@
 
 <section id="WAFFELKEKSE" class="section">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6">
     <h2>Waffelkekse</h2>
 <!--
@@ -152,22 +152,22 @@
             <dt>></dt>
             <dd>2 Eier</dd>
             <dt>></dt>
-            <dd>1 Päckchen Backaroma Orange oder 1 Fläschchen Orangenaroma</dd>                                     
+            <dd>1 Päckchen Backaroma Orange oder 1 Fläschchen Orangenaroma</dd>
             <dt>></dt>
             <dd>1 Päckchen Backpulver</dd>
             <dt>></dt>
-            <dd>1 Päckchen Vanillezucker</dd>                            
+            <dd>1 Päckchen Vanillezucker</dd>
             <dt>></dt>
-            <dd>Etwas Öl für das Waffel&shy;eisen</dd>           
+            <dd>Etwas Öl für das Waffel&shy;eisen</dd>
         </dl>
     </div><!-- tipp-box -->
-      
+
     <p><strong>Butter</strong> (am besten mit Zimmertemperatur) und <strong>Zucker</strong> verrühren. Die <strong>Eier</strong> je eine halbe Minute unterrühren. <strong>Restliche Zutaten</strong> zugeben und Teig etwa 3–4&nbsp;Minuten kneten. Aus dem Teig kleine <strong>Kugeln formen</strong>. Waffel&shy;eisen aufheizen und mit <strong>etwas Öl</strong> besprühen/bepinseln. Kugeln (circa fünf pro Vorgang) in das Waffel&shy;eisen setzen und <strong>goldbraun backen.</strong>
     </p>
 
     </div><!-- col -->
     <div class="col-lg-6 rechts">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/rezepte_waffelkekse.jpg" alt="Guudies, Rezepte: Waffelkekse" title="Guudies, Rezepte: Waffelkekse" class="img-responsive" /> 
+        <img src="<?php echo get_template_directory_uri(); ?>/images/rezepte_waffelkekse.jpg" alt="Guudies, Rezepte: Waffelkekse" title="Guudies, Rezepte: Waffelkekse" class="img-responsive" />
     </div>
 
 </div><!-- row -->
@@ -178,7 +178,7 @@
 
 <section id="HUSARENKRAPFEN" class="section">
 <div class="row untenausrichten">
-    
+
    <div class="col-lg-6 col-lg-push-6">
 
    <h2>Husarenkrapfen</h2>
@@ -195,19 +195,19 @@
             <dt>></dt>
             <dd>200 g kalte Butter</dd>
             <dt>></dt>
-            <dd>100 g Johannisbeergelee</dd>                                     
+            <dd>100 g Johannisbeergelee</dd>
             <dt>></dt>
             <dd>2 Eigelb</dd>
             <dt>></dt>
-            <dd>1 Päckchen Vanillezucker</dd>                            
+            <dd>1 Päckchen Vanillezucker</dd>
             <dt>></dt>
-            <dd>Puderzucker zum Bestäuben</dd>           
+            <dd>Puderzucker zum Bestäuben</dd>
         </dl>
-    </div><!-- tipp_box -->  
-   
+    </div><!-- tipp_box -->
+
     <p><strong>Mehl, gemahlene Haselnüsse, Zucker</strong> und <strong>Vanille&shy;zucker</strong> mischen. Die <strong>kalte Butter</strong> und die beiden <strong>Eigelb</strong> dazugeben. Alles rasch zu einem <strong>glatten Teig kneten.</strong> Den Teig mindestens eine Stunde in den <strong>Kühl&shy;schrank</strong> stellen und <strong>ruhen lassen.</strong> Anschließend circa <strong>2&nbsp;Zentimeter große Kugeln formen</strong> und auf ein mit <strong>Back&shy;papier belegtes Blech</strong> setzen. Mit dem Stiel eines Kochlöffels in jede Kugel mittig eine <strong>Mulde</strong> drücken. Das <strong>Johannis&shy;beer&shy;gelee in die Vertiefung füllen.</strong> Die Plätzchen bei 180&nbsp;°C etwa 15&nbsp;Minuten backen. Nach dem Erkalten <strong>Puderzucker</strong> über die Husaren&shy;krapfen sieben.
     </p>
-    
+
     </div><!-- col -->
 
     <div class="col-lg-6 col-lg-pull-6 links">
@@ -223,7 +223,7 @@
 
 <section id="BETHMAENNCHEN" class="section">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6">
     <h2>Frankfurter Bethmännchen</h2>
 
@@ -239,22 +239,22 @@
             <dt>></dt>
             <dd>2 EL Mehl</dd>
             <dt>></dt>
-            <dd>1 EL Orangenlikör oder Amaretto</dd>                                     
+            <dd>1 EL Orangenlikör oder Amaretto</dd>
             <dt>></dt>
             <dd>40 Mandeln, halbiert ohne Schale</dd>
             <dt>></dt>
-            <dd>4 EL Milch</dd>                            
+            <dd>4 EL Milch</dd>
             <dt>></dt>
-            <dd>1 Ei</dd>           
+            <dd>1 Ei</dd>
         </dl>
     </div><!-- tipp-box -->
-      
+
     <p><strong>Marzipan</strong> grob hacken. <strong>Puderzucker</strong> sieben. <strong>Gemahlene Mandeln, Mehl, Eiweiß</strong> und <strong>Orangen&shy;likör/Amaretto</strong> dazugeben und verkneten. Aus dem Teig <strong>kleine Kugeln formen</strong> und auf ein mit Backpapier ausgelegtes Blech legen. Je <strong>3&nbsp;Mandelhälften</strong> an ein Bethmännchen drücken. <strong>Eigelb</strong> mit <strong>Milch</strong> verquirlen und die Bethmännchen damit bestreichen. Im Backofen (E-Herd: 175&nbsp;°C, Gasherd: Stufe&nbsp;2) etwa 15&nbsp;Minuten backen.
     </p>
 
     </div><!-- col -->
     <div class="col-lg-6 rechts">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/rezepte_frankfurter_bethmaennchen.jpg" alt="Guudies, Rezepte: Frankfurter Bethmännchen" title="Guudies, Rezepte: Frankfurter Bethmännchen" class="img-responsive" /> 
+        <img src="<?php echo get_template_directory_uri(); ?>/images/rezepte_frankfurter_bethmaennchen.jpg" alt="Guudies, Rezepte: Frankfurter Bethmännchen" title="Guudies, Rezepte: Frankfurter Bethmännchen" class="img-responsive" />
     </div>
 
 </div><!-- row -->
@@ -265,7 +265,7 @@
 
 <section id="KOKOSMAKRONEN" class="section">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6 col-lg-push-6">
     <h2>Kokosmakronen</h2>
 
@@ -281,14 +281,14 @@
             <dt>></dt>
             <dd>200 g Kokosflocken</dd>
             <dt>></dt>
-            <dd>1 Päckchen Vanillezucker</dd>                                     
+            <dd>1 Päckchen Vanillezucker</dd>
             <dt>></dt>
-            <dd>Oblaten und Kuvertüre nach Geschmack</dd>         
+            <dd>Oblaten und Kuvertüre nach Geschmack</dd>
         </dl>
     </div>
-        
+
     <p>Das <strong>Eiweiß</strong> steif schlagen und den <strong>Vanillezucker</strong> und das <strong>Bitter&shy;mandelöl</strong> hinzugeben. <strong>Puderzucker</strong> in das geschlagene Eiweiß sieben und unter&shy;rühren. Den <strong>Quark</strong> glatt rühren und mit der Eiweiß&shy;masse vermengen. Zuletzt die <strong>Kokosflocken</strong> hinzugeben und vorsichtig unterheben. Mit 2&nbsp;Teelöffeln <strong>kleine Häufchen</strong> formen und je nach Geschmack entweder auf Oblaten setzen oder direkt auf ein mit Back&shy;papier belegtes Blech geben. Im Backofen bei 130&nbsp;°C (Umluft) auf mittlerer Schiene etwa 20&nbsp;Minuten backen. Nach Belieben können die fertigen Makronen nach dem Abkühlen noch zur Hälfte in Kuvertüre getunkt werden.</p>
-    
+
     </div><!-- col -->
 
     <div class="col-lg-6 col-lg-pull-6 links">
@@ -311,9 +311,9 @@
 
 
      </div>
-       </div>      
-       </div>   
-                        
+       </div>
+       </div>
+
     <footer id="footer">
         <div class="container">
             <div class="footerContent">
@@ -348,7 +348,9 @@
 
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/sorting.js"></script>
-<script>
+<!-- Google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<!-- <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -358,9 +360,9 @@
     ga('set', 'anonymizeIp', true);
     ga('send', 'pageview');
 
-</script>
+</script> -->
 
-<script> 
+<script>
 $(document).ready(function() {
     $('.dropdown-menu').addClass('subnavigation');
 });

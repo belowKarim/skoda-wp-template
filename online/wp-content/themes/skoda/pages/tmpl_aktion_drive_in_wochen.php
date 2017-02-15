@@ -100,17 +100,31 @@
 							<div class="row">
 								<div class="col-md-6 col-sm-12 col-xs-12">
 									<p class="skoda-information">Jetzt sind DRIVE-IN-WOCHEN beim ŠKODA TEAM Rhein-Main. Das bedeutet: die beliebten Modelle ŠKODA FABIA, YETI, RAPID und auch den Neuen ŠKODA OCTAVIA gibt es ab sofort mit vielen unwiderstehlichen Extras wie &nbsp; z. B. Klimaanlage Climatronic , Sitzheizung oder Leichtmetallfelgen. Dazu 5 Jahre Garantie inklusive. Und das bei Preisvorteilen von bis zu 4.444 €.<sup>2</sup> <br><br>Vereinbaren Sie direkt einen Probefahrttermin bei uns und erleben Sie unsere Sondermodelle DRIVE live. Wir freuen uns auf Sie.</p>
-									<p class="impressum-text"><sup class="sub-num">1</sup>3 Jahre kostenlose Garantieverlängerung im Anschluss an die 2-jährige Herstellergarantie mit der ŠKODA Garantie+, der Neuwagen-Anschlussgarantie der ŠKODA AUTO Deutschland GmbH,
-										Max-Planck-Str. 3–5, 64331 Weiterstadt, mit einer maximalen Ge­samtfahrleistung von 50.000 km. Die Leistungen entsprechen dem Umfang der Herstellergarantie. Mehr Details hierzu erfahren Sie
-										unter www.skoda-auto.de/garantieplus</p>
-									<p class="impressum-text text-margin"><sup class="sub-num">2</sup>Preisvorteil am Beispiel des ŠKODA YETI DRIVE inklusive der optionalen Ausstattungspakete „Best of Function” und „Best of Infotainment” gegenüber der unverbindlichen Preisempfehlung der ŠKODA AUTO
-											Deutschland GmbH für vergleichbar ausgestattete Serienmodelle der Ausstattungslinie Ambition.</p>
+										<p class="skoda-kraft">Kraftstoffverbrauch für alle verfügbaren Motoren des ŠKODA DRIVE Sondermodelle in l/100 km, innerorts: 8,1–4,2; außerorts: 5,7–3,3; kombiniert: 6,6–3,8. CO<sub>2</sub>-Emission kombiniert: 154–99&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse C–A</p>
+										<p class="skoda-kraft" style="margin-bottom: 0;">Kraftstoffverbrauch für alle verfügbaren Motoren in l/100 km, innerorts: 9,1–4,1; außerorts: 6,4–3,3; kombiniert: 7,4–3,6; CO2-Emission, kombiniert: 170–95 g/km (gemäß VO (EG) Nr.715/2007). Effizienzklasse D – A+</p> <br>
+
+
 								</div>
 										<div class="col-md-6 animated bounceInLeft">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/skoda_drive_in_wochen.png" class="img-responsive" alt=""  />
 										</div>
 									</div>
 						</section>
+
+						<section class="section">
+							<div class="row">
+								<div class="col-md-12">
+									<p class="impressum-text"><sup class="sub-num">1</sup>3 Jahre kostenlose Garantieverlängerung im Anschluss an die 2-jährige Herstellergarantie mit der ŠKODA Garantie+, der Neuwagen-Anschlussgarantie der ŠKODA AUTO Deutschland GmbH,
+										Max-Planck-Str. 3–5, 64331 Weiterstadt, mit einer maximalen Ge­samtfahrleistung von 50.000 km. Die Leistungen entsprechen dem Umfang der Herstellergarantie. Mehr Details hierzu erfahren Sie
+										unter www.skoda-auto.de/garantieplus</p>
+									<p class="impressum-text text-margin"><sup class="sub-num">2</sup>Preisvorteil am Beispiel des ŠKODA YETI DRIVE inklusive der optionalen Ausstattungspakete „Best of Function” und „Best of Infotainment” gegenüber der unverbindlichen Preisempfehlung der ŠKODA AUTO
+											Deutschland GmbH für vergleichbar ausgestattete Serienmodelle der Ausstattungslinie Ambition.</p>
+								</div>
+							</div>
+						</section>
+
+
+
 
 						<section class="section forForm" id="Formular_Probefahrt">
 							<div class="row">
@@ -135,8 +149,6 @@
 							<div class="row">
 								<div class="col-md-12">
 									<p>* Verfügbar ab 04.03.2017</p>
-									<h5>Kraftstoffverbrauch für alle verfügbaren Motoren des ŠKODA DRIVE Sondermodelle in l/100 km, innerorts: 8,1–4,2; außerorts: 5,7–3,3; kombiniert: 6,6–3,8. CO<sub>2</sub>-Emission kombiniert: 154–99&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse C–A
-										<h5>Kraftstoffverbrauch für alle verfügbaren Motoren in l/100 km, innerorts: 9,1–4,1; außerorts: 6,4–3,3; kombiniert: 7,4–3,6; CO2-Emission, kombiniert: 170–95 g/km (gemäß VO (EG) Nr.715/2007). Effizienzklasse D – A+</h5>
 									</div>
 							</div>
 						</section>
@@ -178,7 +190,9 @@
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/sorting.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/waypoints.min.js"></script>
-<script>
+<!-- Google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<!-- <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -188,7 +202,7 @@
 	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 
-</script>
+</script> -->
 
 
 <script type="text/javascript">

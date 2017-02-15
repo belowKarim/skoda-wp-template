@@ -78,20 +78,20 @@
 										<div class="bannerContainer">
 											<ul>
 											  <li class="withoutflag">
-													<a href="aktionen/drive-in-wochen/" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img12.jpg')">
+													<a onClick="ga('send', 'event', 'Slider', 'Click', 'Startseite-drive-in-wochen');" href="aktionen/drive-in-wochen/" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img12.jpg')">
 														<span style="top: 34px; left: 49px">DIE SONDERMODELLE<br>DRIVE VON ŠKODA.</span>
 														<p class="text-Exbold">Mit einer großen Portion Extras.</p>
 													</a>
-													<a href="aktionen/drive-in-wochen/" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img13.jpg')">
+													<a onClick="ga('send', 'event', 'Slider', 'Click', 'Startseite-drive-in-wochen');" href="aktionen/drive-in-wochen/" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img13.jpg')">
 														<span style="bottom: 15px; left: 188px">FÜR SCHNÄPPSCHE-<br>JÄSCHER</span>
 													</a>
 												</li>
 
 												<li class="withoutflag">
-													<a href="aktionen/aktion-kodiaq/" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img14.jpg')">
+													<a onClick="ga('send', 'event', 'Slider', 'Click', 'Startseite-kodiaq');" href="aktionen/aktion-kodiaq/" class="upLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img14.jpg')">
 														<span style="top: 40px; left:50px">Der NEUE ŠKODA KODIAQ.</span>
 													</a>
-													<a href="aktionen/aktion-kodiaq/" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img15.jpg')">
+													<a onClick="ga('send', 'event', 'Slider', 'Click', 'Startseite-kodiaq');" href="aktionen/aktion-kodiaq/" class="readyLink" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/ready_img15.jpg')">
 														<span style="bottom: 26px; left: 156px;">FÜR DIE,<br>WO MIT’M BÄR STEPPE.</span>
 													</a>
 												</li>
@@ -146,7 +146,7 @@
 						<section class="section">
 								<div class="row">
 									<div class="col-md-6 col-sm-12 col-xs-12 text-local-margin">
-									<a href="aktionen/aktion-kodiaq/"><img src="<?php echo get_template_directory_uri(); ?>/images/Drive_02021777.jpg" class="img-responsive" alt="" /></a>
+									<a onClick="ga('send', 'event', 'CTA-Aktionen', 'Click', 'Aktion-kodiaq');" href="aktionen/aktion-kodiaq/"><img src="<?php echo get_template_directory_uri(); ?>/images/Drive_02021777.jpg" class="img-responsive" alt="" /></a>
 										<div class="sk-um-second-hero">
 												<hgroup>
 														<h5 class="sk-um-sub-headline">Der neuer ŠKODA Kodiaq.</h5>
@@ -154,7 +154,7 @@
 										</div>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12">
-									<a href="aktionen/drive-in-wochen/"><img src="<?php echo get_template_directory_uri(); ?>/images/Kodiaq_02021777.jpg" class="img-responsive" alt="Neue ŠKODA KODIAQ"/></a>
+									<a onClick="ga('send', 'event', 'CTA-Aktionen', 'Click', 'Aktion-drive-in');" href="aktionen/drive-in-wochen/"><img src="<?php echo get_template_directory_uri(); ?>/images/Kodiaq_02021777.jpg" class="img-responsive" alt="Neue ŠKODA KODIAQ"/></a>
 										<div class="sk-um-second-sub-hero">
 												<hgroup>
 														<h5 class="sk-um-sub-headline">Die Sondermodelle</h5>
@@ -177,7 +177,7 @@
 									<p class="skoda-information" style="margin-bottom: 16px;">Wir wünschen Ihnen Guude Fahrt!</p>
 								</div>
 								<div class="col-md-5 col-sm-12 col-xs-12 animated fadeIn">
-								<a href="http://guude-fahrt.de/team-rhein-main/"><img src="<?php echo get_template_directory_uri(); ?>/images/map_umgebaut_seite.png" class="img-responsive" alt=""  /></a>
+								<a onClick="ga('send', 'event', 'CTA-von-karte', 'Click', 'Startseite-TeamRheinMain');" href="http://guude-fahrt.de/team-rhein-main/"><img src="<?php echo get_template_directory_uri(); ?>/images/map_umgebaut_seite.png" class="img-responsive" alt=""  /></a>
 								</div>
 							</div>
 					 </section>
@@ -185,7 +185,7 @@
 					 <section class="listtField">
 							<div class="row">
 								<div class="col-md-12">
-									<h5>Kraftstoffverbrauch für alle verfügbaren Motoren in l/100 km, innerorts: 9,1–4,1; außerorts: 6,4–3,3; kombiniert: 7,4–3,6. CO<sub>2</sub>-Emission kombiniert:170–95&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse D–A<sup>+</sup>
+									<h5>Kraftstoffverbrauch für alle verfügbaren Motoren in l/100 km, innerorts: 9,1–4,1; außerorts: 6,4–3,3; kombiniert: 7,4–3,6. CO<sub>2</sub>-Emission kombiniert: 170–95&nbsp;g/km (gemäß VO (EG) Nr. 715/2007). Effizienzklasse D–A<sup>+</sup>
 								</div>
 							</div>
 					 </section>
@@ -230,7 +230,11 @@
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap-datetimepicker.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/banner.js"></script>
 		<script>jQuery('#datetimepicker input').datetimepicker({format: 'DD/MM/YYYY'});</script>
-		<script>
+
+		<!-- Google analytics -->
+		<?php include_once("analyticstracking.php") ?>
+
+		<!-- <script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -240,7 +244,7 @@
 			ga('set', 'anonymizeIp', true);
 			ga('send', 'pageview');
 
-		</script>
+		</script> -->
 
 		<script>
 		$(document).ready(function() {

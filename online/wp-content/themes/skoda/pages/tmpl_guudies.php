@@ -83,7 +83,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                
+
                         </div>
                     </div>
                 </div>
@@ -110,17 +110,17 @@
 
 <section class="section feldberg">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6">
     <h2>Aufatmen am Großen Feldberg</h2>
-    
+
     <p>Vor den Toren Frankfurts lädt Sie der 881 Meter hohe Große Feldberg ein, die herrliche Luft des Hochtaunus zu genießen. Ganz oben auf dem Plateau des höchsten Taunusberges lockt der Brunhildisfelsen zu einer kleinen Kletterei: Der Fernblick von hier ist einfach unglaublich! Noch besser sieht man nur vom rund 40 Meter hohen Aussichtsturm mit seiner rundum verglasten Plattform.<br />
     <br />
     Auf dem weit verzweigten Netz gut ausgebauter Wander&shy;wege kann man ausgedehnte Spaziergänge unternehmen und dabei die schöne Wald&shy;atmos&shy;phäre genießen. Nach so einer ausgiebigen Tour kehrt man dann gern im Feldberghof, dem beliebten Ausflugslokal auf dem Gipfel, ein.<br />
     <br />
     Ob Herbst oder Winter, Frühling oder Sommer: Der große Feldberg ist zu jeder Jahreszeit einen Ausflug wert. Fahren Sie mal doch mal wieder hin.
     </p>
-    
+
    <div class="tipp_box">
         <h3>Tipps:</h3>
         <dl>
@@ -131,13 +131,13 @@
             <dd><strong>Falkenhof Großer Feldberg</strong><br />
                     Hessens älteste Falknerei. Mit Vorführungen, Vorträgen u.v.m.</dd>
              <dt>></dt>
-            <dd><strong>Mehr Infos: <a href="http://www.taunus.info" target="_blank">www.taunus.info</a></strong></dd>             
+            <dd><strong>Mehr Infos: <a href="http://www.taunus.info" target="_blank">www.taunus.info</a></strong></dd>
         </dl>
     </div><!-- tipp-box -->
-    
+
     </div><!-- col -->
     <div class="col-lg-6 rechts">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/guudies_feldberg.jpg" alt="Guudies: Aufatmen am Großen Feldberg" class="img-responsive" /> 
+        <img src="<?php echo get_template_directory_uri(); ?>/images/guudies_feldberg.jpg" alt="Guudies: Aufatmen am Großen Feldberg" class="img-responsive" />
     </div>
 
 </div><!-- row -->
@@ -148,17 +148,17 @@
 
 <section class="section eltville">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6 col-lg-push-6">
     <h2>Ein Ausflug nach Eltville</h2>
-    
+
     <p>Kennen Sie das romantische Rheingau-Städtchen Eltville am Rhein? Wenn nicht, wird es höchste Zeit, es kennenzulernen. Wenn ja, wissen Sie bereits, dass sich ein Wiederkommen jederzeit lohnt. <br />
     <br />
     Eltville ist eine der schönsten Perlen des Rheingaus. Bei einem Bummel durch die malerischen Gassen der Altstadt gibt es viel zu entdecken: den schönen Marktplatz mit dem Stadtbrunnen, beeindruckende Adelshöfe und Patrizierhäuser, die Pfarrkirche St. Peter und Paul und einiges mehr.<br />
     <br />
     Auf jeden Fall gehört ein Spaziergang auf der Rheinufer-Promenade zu einem Besuch in Eltville. Rheinaufwärts gelangt man dann unwillkürlich zur kurfürstlichen Burg mit ihrem berühmten Rosengarten. Und auch die Burg Crass, das älteste Bauwerk der Stadt, ist nur einen Katzensprung entfernt.
     </p>
-    
+
    <div class="tipp_box">
        <h3>Tipps:</h3>
        <dl>
@@ -166,10 +166,10 @@
             <dd><strong>Kloster Eberbach</strong><br />
             Das ehemalige Zisterzienserkloster, eines der bedeutendsten mittelalterlichen Denkmäler Hessens, liegt keine 10&nbsp;km von Eltville entfernt. Einen Abstecher hierher sollten Sie unbedingt einplanen.</dd>
             <dt>></dt>
-            <dd><strong>Mehr Infos: <a href="http://www.eltville.de" target="_blank">www.eltville.de</a>, <a href="http://www.kloster-eberbach.de" target="_blank">www.kloster-eberbach.de</a></strong></dd>     
+            <dd><strong>Mehr Infos: <a href="http://www.eltville.de" target="_blank">www.eltville.de</a>, <a href="http://www.kloster-eberbach.de" target="_blank">www.kloster-eberbach.de</a></strong></dd>
         </dl>
 
-    </div><!-- tipp_box -->      
+    </div><!-- tipp_box -->
     </div><!-- col -->
 
     <div class="col-lg-6 col-lg-pull-6 links">
@@ -185,14 +185,14 @@
 
 <section class="section grube_messel">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6">
     <h2>Abtauchen in frühere Welten: Grube Messel</h2>
-    
+
     <p>Eigentlich ist die Grube Messel ja „nur“ ein stillgelegter Ölschiefer-Tage&shy;bau im Landkreis Darmstadt-Dieburg. Doch aufgrund der hier gefundenen Fossilien wurde sie 1995 als UNESCO-Weltnaturerbe klassifiziert. Die meis&shy;ten Funde stammen aus dem Eozän, einem Zeitalter, das vor rund 56&nbsp;Millionen Jahren begann und vor etwa 34 Millionen Jahren endete. Das sind Zeitspannen, die sich Otto Normalverbraucher kaum vorstellen kann.<br />
     <br />
     Vertreter aller großer Wirbeltiergruppen, Insekten, Pflanzen: Sie alle haben die Forscher hier entdeckt. Besonders berühmt geworden sind die Funde der sogenannten Urpferde. Im Rahmen von Führungen auf dem Gelände und im Besucherzentrum kann man abtauchen in längst verschwundene Welten. Dabei erhält man einen Einblick in die Entsteh&shy;ungs&shy;geschichte der Grube Messel und in den aktuellen Stand der Forschung.</p>
-   
+
 
     <div class="tipp_box">
             <h3>Tipps:</h3>
@@ -202,12 +202,12 @@
                 <dt>></dt>
                 <dd><strong>Mehr Infos: <a href="http://www.grube-messel.de" target="_blank">www.grube-messel.de</a>, <a href="http://www.mathildenhoehe.eu" target="_blank">www.mathildenhoehe.eu</a></strong></dd>
             </dl>
-       </div> <!-- tipp-box -->   
+       </div> <!-- tipp-box -->
     </div><!-- col -->
 
 
     <div class="col-lg-6 rechts">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/guudies_messel.jpg" alt="Guudies: Abtauchen in frühere Welten: Grube Messel" class="img-responsive" />   
+        <img src="<?php echo get_template_directory_uri(); ?>/images/guudies_messel.jpg" alt="Guudies: Abtauchen in frühere Welten: Grube Messel" class="img-responsive" />
     </div>
 
 </div><!-- row -->
@@ -219,16 +219,16 @@
 
 <section class="section ronneburg">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6 col-lg-push-6">
     <h2>Rauf auf die Ronneburg</h2>
-    
+
     <p>Wie wäre es mit einem Ausflug in die Zeit der Ritter und Burgfräuleins? Dann fahren Sie doch mal in den Main-Kinzig-Kreis und schauen Sie sich die Burg Ronneburg an. Sie thront hoch oben auf einem Basaltkegel und gilt zu Recht als eine der am besten erhaltenen Höhenburgen Hessens. <br />
     <br />
     Erbaut wurde die Kernburg im 13.&nbsp;Jahrhundert, ihre größte Bedeutung hatte die Ronneburg jedoch im 16. Jahrhundert, das ihr auch seinen architektonischen Stempel aufdrückte. Besonders gut erkennt man das am markanten Kuppelhelm des Bergfrieds und an der neuen Kemenate. <br />
     <br />
     Aber wir wollen Sie jetzt nicht mit kunsthistorischen Beschreibungen langweilen. Vielmehr liegt uns daran, Sie zu einem erlebnisreichen Besuch der Burg anzuregen. Denn der lohnt sich allemal.</p>
-    
+
     <div class="tipp_box">
         <h3>Tipps:</h3>
         <dl>
@@ -239,7 +239,7 @@
         <dd><strong>Mehr Infos: <a href="http://www.www.burg-ronneburg.de" target="_blank">www.burg-ronneburg.de</a></strong></dd>
         </dl>
     </div>
-    
+
     </div><!-- col -->
 
     <div class="col-lg-6 col-lg-pull-6 links">
@@ -255,15 +255,15 @@
 
 <section class="section fasanerie">
 <div class="row untenausrichten">
-    
+
     <div class="col-lg-6">
     <h2>Tierisch gut: die Fasanerie Wiesbaden</h2>
-    
+
     <p>Vor den Toren Wiesbadens kann man im rund 25&nbsp;Hektar großen Tierpark Fasanerie gut und gern 50&nbsp;einheimische Wild- und Haustierarten be&shy;stau&shy;nen. Schweine, Füchse, Wölfe, ja sogar Bären sind hier zu Hause. Kinder geraten hier schnell ins Schwärmen, vor allem weil es auch ein Streichel&shy;gehege und einen Wasser&shy;spielplatz gibt. <br />
     <br />
     Aber auch Erwachsene haben ihre Freude an dem landschaftlich vielsei&shy;ti&shy;gen Park, der einen glatt vergessen lässt, dass man nur wenige Kilo&shy;meter von Wiesbadens Innen&shy;stadt entfernt ist. Wer möchte, ist herzlich zu den naturkundlichen Führungen eingeladen, die regelmäßig angeboten werden. Und täglich um 11.00 Uhr – außer freitags – finden die sehens&shy;werten Fütterungs&shy;touren statt. Ein Besuch in der Fasanerie ist eine kleine Auszeit vom Alltag. So schön und so einfach kann Entspannung sein.
     </p>
-    
+
 
 
 
@@ -276,7 +276,7 @@
             <dd><strong>Neroberg Wiesbaden</strong><br />Toller Ausblick, besonderes Erlebnis: die Fahrt mit der Nerobergbahn</dd>
 
              <dt>></dt>
-            <dd><strong>Mehr Infos: <a href="http://www.fasanerie.net" target="_blank">www.fasanerie.net</a>, <a href="http://www.wiesbaden.de" target="_blank">www.wiesbaden.de</a></strong></dd> 
+            <dd><strong>Mehr Infos: <a href="http://www.fasanerie.net" target="_blank">www.fasanerie.net</a>, <a href="http://www.wiesbaden.de" target="_blank">www.wiesbaden.de</a></strong></dd>
         </dl>
     </div><!-- tipp-box -->
 
@@ -302,9 +302,9 @@
 
 
      </div>
-       </div>      
-       </div>   
-                        
+       </div>
+       </div>
+
     <footer id="footer">
         <div class="container">
             <div class="footerContent">
@@ -339,7 +339,9 @@
 
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/sorting.js"></script>
-<script>
+<!-- Google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<!-- <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -349,9 +351,9 @@
     ga('set', 'anonymizeIp', true);
     ga('send', 'pageview');
 
-</script>
+</script> -->
 
-<script> 
+<script>
 $(document).ready(function() {
     $('.dropdown-menu').addClass('subnavigation');
 });

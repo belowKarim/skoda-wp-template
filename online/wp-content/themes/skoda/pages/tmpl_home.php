@@ -10,7 +10,7 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package skoda
- */  
+ */
 ?>
 <!DOCTYPE HTML>
 <html lang="de">
@@ -194,7 +194,7 @@
 									<p>Wir wünschen schon mal guude Fahrt und viel Glück!</p>
 								</div>
 								<div class="col-md-6">
-									<img height="340" src="<?php echo get_template_directory_uri(); ?>/images/skoda_team_rhein_main_gewinnspiel_tickets.jpg" alt="Jeden Monat 2 Tickets für Ihren Lieblingssportverein aus dem Rhein-Main-Gebiet<sup>3</sup>" class="img-responsive" />				
+									<img height="340" src="<?php echo get_template_directory_uri(); ?>/images/skoda_team_rhein_main_gewinnspiel_tickets.jpg" alt="Jeden Monat 2 Tickets für Ihren Lieblingssportverein aus dem Rhein-Main-Gebiet<sup>3</sup>" class="img-responsive" />
 
 								</div>
 
@@ -256,7 +256,7 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-		
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap-datetimepicker.min.js"></script>
@@ -264,7 +264,9 @@
 
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/banner.js"></script>
 		<script>jQuery('#datetimepicker input').datetimepicker({format: 'DD/MM/YYYY'});</script>
-		<script>
+		<!-- Google analytics -->
+		<?php include_once("analyticstracking.php") ?>
+		<!-- <script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -274,9 +276,9 @@
 			ga('set', 'anonymizeIp', true);
 			ga('send', 'pageview');
 
-		</script>
+		</script> -->
 
-<script> 
+<script>
 $(document).ready(function() {
     $('.dropdown-menu').addClass('subnavigation');
 });

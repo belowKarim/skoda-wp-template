@@ -97,7 +97,7 @@
 
 								<?php
 										if( have_rows('acf_impressum_haendler_address') ):
-								    		
+
 								    		while ( have_rows('acf_impressum_haendler_address') ) : the_row();
 											$haendler_impressum_address = get_sub_field('acf_impressum_single_haendler_address'); ?>
 
@@ -106,7 +106,7 @@
 											</div>
 
 								<?php 	endwhile;
-								
+
 									endif;
 								?>
 
@@ -152,7 +152,9 @@
 
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/sorting.js"></script>
-<script>
+<!-- Google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<!-- <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -162,9 +164,9 @@
 	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 
-</script>
+</script> -->
 
-<script> 
+<script>
 $(document).ready(function() {
     $('.dropdown-menu').addClass('subnavigation');
 });
